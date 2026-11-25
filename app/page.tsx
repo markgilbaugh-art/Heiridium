@@ -16,7 +16,7 @@ import { pageMetadata } from '@/lib/site'
 export const revalidate = 3600
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Business Exit & Succession Planning for Trade Owners | Heiridium',
+  title: 'Exit, Succession & Profit Planning for Business Owners | Heiridium',
   description:
     'Heiridium helps owners of established businesses improve profitability, prepare for a sale or family succession, and build generational wealth.',
   path: '/',

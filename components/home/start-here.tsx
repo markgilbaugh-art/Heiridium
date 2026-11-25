@@ -52,7 +52,7 @@ export function StartHere({ paths }: { paths: Path[] }) {
           alt={`Cover of ${active.book.title}`}
           width={430}
           height={754}
-          className="h-auto w-36 shrink-0 self-start shadow-xl sm:w-44"
+          className="h-auto w-36 shrink-0 self-start sm:w-44"
         />
         <div className="flex flex-col">
           <p className="eyebrow text-gold">{`Start with Book ${active.book.numeral}`}</p>

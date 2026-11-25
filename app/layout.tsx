@@ -17,7 +17,7 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Business Exit & Succession Planning for Trade Owners | Heiridium',
+    default: 'Exit, Succession & Profit Planning for Business Owners | Heiridium',
     template: '%s | Heiridium',
   },
   description:

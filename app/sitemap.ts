@@ -25,11 +25,10 @@ const staticRoutes = [
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date()
   return [
-    ...staticRoutes.map((path) => ({ url: `${SITE_URL}${path}`, lastModified: now })),
-    ...books.map((b) => ({ url: `${SITE_URL}/books/${b.slug}`, lastModified: now })),
-    ...topics.map((t) => ({ url: `${SITE_URL}/academy/topics/${t.slug}`, lastModified: now })),
+    ...staticRoutes.map((path) => ({ url: `${SITE_URL}${path}` })),
+    ...books.map((b) => ({ url: `${SITE_URL}/books/${b.slug}` })),
+    ...topics.map((t) => ({ url: `${SITE_URL}/academy/topics/${t.slug}` })),
     ...getLiveArticles().map((a) => ({
       url: `${SITE_URL}/academy/${a.slug}`,
       lastModified: new Date(a.revisedAt ?? a.publishAt),

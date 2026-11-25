@@ -1,9 +1,6 @@
 import type { Metadata } from 'next'
 
-export const SITE_URL =
-  process.env.VERCEL_ENV === 'production'
-    ? 'https://heiridium.com'
-    : process.env.NEXT_PUBLIC_SITE_URL ?? 'https://heiridium.com'
+export const SITE_URL = 'https://heiridium.com'
 
 export const SITE_NAME = 'Heiridium'
 
@@ -48,7 +45,7 @@ export function pageMetadata({
   type = 'website',
 }: PageMetaInput): Metadata {
   return {
-    title,
+    title: title.includes(SITE_NAME) ? { absolute: title } : title,
     description,
     alternates: { canonical: path },
     openGraph: {

@@ -65,7 +65,7 @@ export const books: Book[] = [
       'Owners whose company keeps getting busier while margins and cash flow stay flat, and who suspect the business depends too heavily on them.',
     startHereIf: [
       'Revenue has grown but take-home profit has not kept pace',
-      'You are not sure which jobs, trucks, or service lines actually make money',
+      'You are not sure which products, clients, projects, or service lines actually make money',
       'Your books close late or need heavy adjustment before your CPA can use them',
     ],
     synopsis: [
@@ -74,16 +74,16 @@ export const books: Book[] = [
     ],
     chapters: [
       { title: 'Leadership rhythm', summary: 'Weekly and monthly meetings that move decisions off the owner’s desk.' },
-      { title: 'Process improvement', summary: 'Documenting dispatch, estimating, and closeout so quality does not depend on who is working.' },
-      { title: 'Pricing for margin', summary: 'Building flat-rate and project pricing from real labor, overhead, and target profit.' },
-      { title: 'Job costing', summary: 'Seeing the true profit of every job, crew, and service line.' },
+      { title: 'Process improvement', summary: 'Documenting the core workflows, from sales to delivery, so quality does not depend on who is working.' },
+      { title: 'Pricing for margin', summary: 'Building prices from real cost, overhead, and target profit, whether you sell products, projects, or retainers.' },
+      { title: 'Unit and job economics', summary: 'Seeing the true profit of every product, client, project, and service line.' },
       { title: 'Clean books', summary: 'A monthly close your CPA, lender, and a future buyer can rely on.' },
       { title: 'Cash flow', summary: 'Forecasting seasonality, receivables, and capital purchases before they become emergencies.' },
     ],
     takeaways: [
       'A 90-day sequence you can run with your leadership team',
-      'A monthly close checklist built for service contractors',
-      'Pricing and job-costing worksheets you can adapt',
+      'A monthly close checklist for an established business',
+      'Pricing and margin worksheets you can adapt',
       'The few numbers worth reviewing every week',
     ],
     topic: 'business-performance',
@@ -124,7 +124,7 @@ export const books: Book[] = [
       { title: 'Tax planning before a transaction', summary: 'Why basis, structure, and allocation matter, and what to ask a CPA early.' },
     ],
     takeaways: [
-      'A risk inventory for a service contractor',
+      'A risk inventory for an owner-led company',
       'Questions to take to your CPA and estate attorney',
       'A timeline for planning that has to start years, not weeks, before a deal',
       'A clear picture of which professionals to involve and why',
@@ -152,7 +152,7 @@ export const books: Book[] = [
       'Owners who are considering a sale in the next one to five years, or who have already been approached by a buyer or private equity group.',
     startHereIf: [
       'A buyer, broker, or private equity firm has already called',
-      'Customers, vendors, and technicians still expect to deal with you personally',
+      'Customers, vendors, and key staff still expect to deal with you personally',
       'You want to compare offers on what you keep, not just the headline price',
     ],
     synopsis: [

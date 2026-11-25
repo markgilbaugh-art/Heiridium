@@ -13,7 +13,7 @@ export function BookCover({ book, className, priority }: { book: Book; className
       height={754}
       priority={priority}
       sizes="(min-width: 1024px) 22vw, (min-width: 640px) 40vw, 80vw"
-      className={cn('h-auto w-full shadow-[0_24px_48px_-16px_rgba(0,0,0,0.6)]', className)}
+      className={cn('h-auto w-full bg-transparent', className)}
     />
   )
 }
