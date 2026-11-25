@@ -7,8 +7,8 @@ import { pageMetadata } from '@/lib/site'
 export const revalidate = 3600
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Business Exit Planning for Home-Services Owners',
-  description: 'Prepare your plumbing, HVAC, or home-services company for a sale on your terms: value drivers, founder independence, clean financials, and advisor coordination.',
+  title: 'Business Exit Planning for Established Business Owners',
+  description: 'Prepare your company for a sale on your terms: value drivers, founder independence, clean financials, and advisor coordination.',
   path: exitPlanning.path,
 })
 

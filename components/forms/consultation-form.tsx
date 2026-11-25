@@ -46,10 +46,14 @@ export function ConsultationForm() {
             <option value="" disabled>
               Select one
             </option>
+            <option>Retail</option>
+            <option>Construction &amp; Trades</option>
             <option>HVAC</option>
             <option>Plumbing</option>
-            <option>HVAC and plumbing</option>
-            <option>Other home services</option>
+            <option>E-commerce</option>
+            <option>Professional Services</option>
+            <option>Technology &amp; IT Services</option>
+            <option>Other</option>
           </select>
         </Field>
         <Field id="revenue" label="Annual revenue" optional error={e.revenue}>

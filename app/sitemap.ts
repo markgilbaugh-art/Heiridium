@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { getLiveArticles } from '@/lib/content/articles'
 import { books } from '@/lib/content/books'
+import { allIndustries, industryCategories } from '@/lib/content/industries'
 import { topics } from '@/lib/content/topics'
 import { SITE_URL } from '@/lib/site'
 
@@ -12,8 +13,11 @@ const staticRoutes = [
   '/exit-planning',
   '/tax-planning-before-a-sale',
   '/succession-planning',
+  '/industries',
+  ...industryCategories.map((i) => i.path),
   '/industries/hvac',
   '/industries/plumbing',
+  ...allIndustries.map((i) => `/academy/industries/${i.slug}`),
   '/books',
   '/academy',
   '/about',

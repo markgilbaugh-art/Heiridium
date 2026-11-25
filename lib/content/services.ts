@@ -2,12 +2,12 @@ import type { ServicePageData } from '@/components/site/service-page'
 
 export const exitPlanning: ServicePageData = {
   path: '/exit-planning',
-  serviceName: 'Business exit planning for home-services owners',
+  serviceName: 'Business exit planning for established business owners',
   crumbs: [{ label: 'Exit planning', href: '/exit-planning' }],
   eyebrow: 'Exit planning',
   title: 'Exit planning for owners who want to sell on their terms',
   intro:
-    'Prepare your plumbing, HVAC, or home-services company for a sale years before you need one, so you choose the buyer, the timing, and the terms.',
+    'Prepare your company for a sale years before you need one, so you choose the buyer, the timing, and the terms.',
   image: {
     src: '/images/hero-owner.png',
     alt: 'A company owner standing in his parts shop as technicians prepare a service van.',
@@ -137,23 +137,23 @@ export const successionPlanning: ServicePageData = {
     { q: 'Should I sell to an outside buyer or pass the company to family?', a: 'It depends on your successor’s readiness and interest, your retirement needs, and family dynamics. We help you compare both paths with clear criteria.' },
     { q: 'How do I treat children fairly if only one works in the business?', a: 'Fair is not always equal. Families use different ownership classes, life insurance, or other assets to balance outcomes. Your attorney can advise on specific structures.' },
     { q: 'How long does a family succession take?', a: 'Commonly five to ten years when leadership development is involved. Ownership transfer can be faster, but should follow a documented plan.' },
-    { q: 'Can a professional manager run the company while my family owns it?', a: 'Yes. Separating ownership and leadership is a common and often effective approach for trade businesses.' },
+    { q: 'Can a professional manager run the company while my family owns it?', a: 'Yes. Separating ownership and leadership is a common and often effective approach for owner-led businesses.' },
   ],
   showDisclaimer: true,
 }
 
 export const howWeHelp: ServicePageData = {
   path: '/how-we-help',
-  serviceName: 'Business advisory for home-services owners',
+  serviceName: 'Business advisory for established business owners',
   crumbs: [{ label: 'How We Help', href: '/how-we-help' }],
   eyebrow: 'How we help',
   title: 'One path, from a stronger company to a lasting legacy',
   intro:
-    'Heiridium helps owner-led trade companies improve operations, protect what has been built, prepare for a transition, and plan for the family’s future.',
+    'Heiridium helps owner-led companies improve operations, protect what has been built, prepare for a transition, and plan for the family’s future.',
   problem: {
     title: 'A company built over decades deserves a deliberate next chapter',
     paragraphs: [
-      'Most owners we work with are in their 50s or 60s, run a company with $3 million to $30 million in revenue, and have never sold a business before. They want honest guidance, not a pitch.',
+      'Most owners we work with are in their 50s or 60s, have built an established company, and have never sold a business before. They want honest guidance, not a pitch.',
       'Our work follows the same four stages as the Heiridium books. Some owners start at the beginning. Others arrive a year before a sale. We meet you where your company is today.',
     ],
   },
@@ -178,10 +178,10 @@ export const howWeHelp: ServicePageData = {
   ],
   bookSlugs: ['build-a-profitable-business', 'build-a-sellable-business'],
   faqs: [
-    { q: 'What size companies do you work with?', a: 'Most clients are owner-led home-services companies, usually plumbing or HVAC, with roughly $3 million to $30 million in annual revenue.' },
+    { q: 'What size companies do you work with?', a: 'We work with owners of established, owner-led businesses who want stronger profit, a company that runs without them, and a plan for a sale or family transition.' },
     { q: 'Do you replace my CPA or attorney?', a: 'No. We work alongside them. They provide tax and legal advice; we help prepare the company and coordinate the plan.' },
     { q: 'How do engagements start?', a: 'With a confidential conversation about your company and goals. If there is a fit, we begin with an assessment and a prioritized plan.' },
-    { q: 'Do you only work with HVAC and plumbing companies?', a: 'Those are our focus. We also work with closely related home-services trades such as electrical and roofing.' },
+    { q: 'Which industries do you work with?', a: 'Retail, construction and trades (including HVAC and plumbing), e-commerce, professional services, and technology and IT services.' },
   ],
 }
 
@@ -189,7 +189,8 @@ export const hvac: ServicePageData = {
   path: '/industries/hvac',
   serviceName: 'Exit and succession planning for HVAC companies',
   crumbs: [
-    { label: 'Who We Serve', href: '/industries/hvac' },
+    { label: 'Who We Serve', href: '/industries' },
+    { label: 'Construction & Trades', href: '/industries/construction-trades' },
     { label: 'HVAC companies', href: '/industries/hvac' },
   ],
   eyebrow: 'HVAC companies',
@@ -239,7 +240,8 @@ export const plumbing: ServicePageData = {
   path: '/industries/plumbing',
   serviceName: 'Exit and succession planning for plumbing companies',
   crumbs: [
-    { label: 'Who We Serve', href: '/industries/plumbing' },
+    { label: 'Who We Serve', href: '/industries' },
+    { label: 'Construction & Trades', href: '/industries/construction-trades' },
     { label: 'Plumbing companies', href: '/industries/plumbing' },
   ],
   eyebrow: 'Plumbing companies',

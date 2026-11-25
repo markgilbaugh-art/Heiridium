@@ -1,9 +1,11 @@
+import { launchArticles } from './articles-launch'
 import { publishedArticles } from './articles-published'
 import { queuedArticles } from './articles-queue'
-import type { Article } from './types'
+import { industryFamily } from './industries'
+import type { Article, Industry } from './types'
 import type { TopicSlug } from './topics'
 
-const allArticles: Article[] = [...publishedArticles, ...queuedArticles]
+const allArticles: Article[] = [...publishedArticles, ...launchArticles, ...queuedArticles]
 
 export function isLive(article: Article, now = Date.now()) {
   return (
@@ -37,11 +39,12 @@ export function getArticlesForBook(bookSlug: string, limit = 3) {
     .slice(0, limit)
 }
 
-export function getArticlesForIndustry(industry: 'hvac' | 'plumbing', limit = 3) {
-  return getLiveArticles()
-    .filter((a) => a.industries.includes(industry))
-    .sort((a, b) => Number(b.industries.length === 1) - Number(a.industries.length === 1))
-    .slice(0, limit)
+export function getArticlesForIndustry(industry: Industry, limit?: number) {
+  const family = industryFamily(industry)
+  const matches = getLiveArticles()
+    .filter((a) => a.industries.some((i) => family.includes(i)))
+    .sort((a, b) => Number(b.industries.length < 4) - Number(a.industries.length < 4))
+  return limit ? matches.slice(0, limit) : matches
 }
 
 export function getEditorialQueue() {

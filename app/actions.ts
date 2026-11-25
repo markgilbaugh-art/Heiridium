@@ -46,7 +46,7 @@ async function deliver(subject: string, lines: [string, string][]) {
 
 const REVENUE_BANDS = ['Under $3M', '$3M–$10M', '$10M–$30M', 'Over $30M', 'Prefer not to say']
 const TIMELINES = ['Within 12 months', '1–3 years', '3–5 years', '5+ years', 'Not sure yet']
-const INDUSTRIES = ['HVAC', 'Plumbing', 'HVAC and plumbing', 'Other home services']
+const INDUSTRIES = ['Retail', 'Construction & Trades', 'HVAC', 'Plumbing', 'E-commerce', 'Professional Services', 'Technology & IT Services', 'Other']
 
 export async function submitConsultation(_prev: FormState, formData: FormData): Promise<FormState> {
   if (looksLikeSpam(formData)) {

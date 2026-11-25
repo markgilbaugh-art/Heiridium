@@ -8,9 +8,9 @@ import { books } from '@/lib/content/books'
 import { SITE_URL, pageMetadata } from '@/lib/site'
 
 export const metadata: Metadata = pageMetadata({
-  title: 'The Heiridium Book Series for Trade Business Owners',
+  title: 'The Heiridium Book Series for Business Owners',
   description:
-    'Four books for plumbing, HVAC, and home-services owners: build a profitable business, protect what you built, build a sellable business, and build generational wealth.',
+    'Four books for owners of established businesses: build a profitable business, protect what you built, build a sellable business, and build generational wealth.',
   path: '/books',
 })
 
@@ -34,7 +34,7 @@ export default function BooksPage() {
       <PageHero
         eyebrow="The Heiridium series"
         title="Four books. One path from profit to legacy."
-        intro="A practical series for owners of plumbing, HVAC, and home-services companies. Each book covers one stage: profit, protection, sale readiness, and generational wealth."
+        intro="A practical series for owners of established businesses. Each book covers one stage: profit, protection, sale readiness, and generational wealth."
         crumbs={[{ label: 'Books', href: '/books' }]}
       >
         <Image

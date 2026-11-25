@@ -8,7 +8,7 @@ export const revalidate = 3600
 
 export const metadata: Metadata = pageMetadata({
   title: 'Family Business Succession Planning',
-  description: 'Pass your trade business, or its wealth, to the next generation. Separate ownership from leadership, prepare heirs, and plan a fair transition.',
+  description: 'Pass your business, or its wealth, to the next generation. Separate ownership from leadership, prepare heirs, and plan a fair transition.',
   path: successionPlanning.path,
 })
 

@@ -22,7 +22,7 @@ export const topics: Topic[] = [
     bookSlug: 'build-a-profitable-business',
     accent: 'red',
     description:
-      'Guides for HVAC and plumbing owners on pricing, job costing, the monthly close, cash flow, and leadership that does not depend on the owner.',
+      'Guides for business owners on pricing, job costing, the monthly close, cash flow, and leadership that does not depend on the owner.',
     intro:
       'Every exit, succession, or ownership decision starts with numbers you trust. These guides cover the operating habits that produce reliable profit in a service contracting business.',
     cornerstoneSlug: 'why-profit-and-cash-flow-tell-different-stories',
@@ -38,10 +38,10 @@ export const topics: Topic[] = [
     bookSlug: 'protect-what-you-built',
     accent: 'blue',
     description:
-      'Plain-language guides on entity structure, risk, insurance, and the tax questions trade business owners should take to a CPA and attorney before a sale.',
+      'Plain-language guides on entity structure, risk, insurance, and the tax questions business owners should take to a CPA and attorney before a sale.',
     intro:
       'These guides explain the questions to raise and the facts to gather. Tax and legal articles are published only after review by a qualified professional, and they are not a substitute for advice on your situation.',
-    cornerstoneSlug: 'what-taxes-could-i-owe-when-i-sell-my-business',
+    cornerstoneSlug: 'what-to-ask-your-cpa-before-signing-a-letter-of-intent',
     questions: [
       'How might sale structure affect what I keep?',
       'What should my CPA see before I sign an LOI?',
@@ -54,7 +54,7 @@ export const topics: Topic[] = [
     bookSlug: 'build-a-sellable-business',
     accent: 'green',
     description:
-      'How HVAC, plumbing, and home-services owners prepare a company for buyer diligence, reduce founder dependence, and compare offers.',
+      'How business owners prepare a company for buyer diligence, reduce founder dependence, and compare offers.',
     intro:
       'Buyers pay for earnings they can verify and a company that runs without its founder. These guides cover readiness, diligence, and how to evaluate an offer.',
     cornerstoneSlug: 'how-to-find-out-if-your-company-can-run-without-you',

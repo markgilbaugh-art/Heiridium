@@ -18,7 +18,7 @@ export const revalidate = 3600
 export const metadata: Metadata = pageMetadata({
   title: 'Business Exit & Succession Planning for Trade Owners | Heiridium',
   description:
-    'Heiridium helps plumbing, HVAC, and home-services owners improve profitability, prepare for a sale or family succession, and build generational wealth.',
+    'Heiridium helps owners of established businesses improve profitability, prepare for a sale or family succession, and build generational wealth.',
   path: '/',
 })
 
@@ -91,7 +91,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Heiridium Academy"
               title="Practical guides, published every weekday"
-              intro="Plain-language articles on profit, protection, exit readiness, and succession for trade business owners."
+              intro="Plain-language articles on profit, protection, exit readiness, and succession for owners of established businesses."
             />
             <Link href="/academy" className="inline-flex shrink-0 items-center gap-2 font-medium text-ink hover:text-gold">
               All guides

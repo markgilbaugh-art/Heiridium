@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ topic: st
   const topic = getTopic(slug)
   if (!topic) return {}
   return pageMetadata({
-    title: `${topic.name} Guides for Trade Business Owners | Heiridium Academy`,
+    title: `${topic.name} Guides for Business Owners | Heiridium Academy`,
     description: topic.description,
     path: `/academy/topics/${topic.slug}`,
   })

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | Heiridium',
   },
   description:
-    'Heiridium helps plumbing, HVAC, and home-services owners improve profitability, prepare for a sale or family succession, and build generational wealth.',
+    'Heiridium helps owners of established businesses improve profitability, prepare for a sale or family succession, and build generational wealth.',
   applicationName: SITE_NAME,
   robots: IS_INDEXABLE ? { index: true, follow: true } : { index: false, follow: false },
   icons: {

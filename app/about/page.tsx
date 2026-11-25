@@ -5,9 +5,9 @@ import { Container, CtaBand, PageHero, SectionHeading } from '@/components/site/
 import { pageMetadata } from '@/lib/site'
 
 export const metadata: Metadata = pageMetadata({
-  title: 'About Heiridium | Advisors to Trade Business Owners',
+  title: 'About Heiridium | Advisors to Business Owners',
   description:
-    'Heiridium helps owners of plumbing, HVAC, and home-services companies turn decades of work into a stronger company, a successful transition, and generational wealth.',
+    'Heiridium helps owners of established businesses turn decades of work into a stronger company, a successful transition, and generational wealth.',
   path: '/about',
 })
 
@@ -24,7 +24,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Heiridium"
         title="Your heirs. Your legacy. Your direction."
-        intro="Heiridium exists to help trade business owners turn a lifetime of work into lasting wealth for their families."
+        intro="Heiridium exists to help business owners turn a lifetime of work into lasting wealth for their families."
         crumbs={[{ label: 'About', href: '/about' }]}
       />
       <section className="py-20 md:py-24">
@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div className="flex flex-col gap-5 text-lg leading-relaxed text-muted-foreground">
             <h2 className="text-4xl font-semibold leading-tight text-ink">Why we started</h2>
             <p>
-              Many owners of plumbing and HVAC companies spent thirty years building something valuable, then faced the
+              Many business owners spent thirty years building something valuable, then faced the
               biggest financial decision of their lives with little preparation and a lot of unsolicited advice.
             </p>
             <p>

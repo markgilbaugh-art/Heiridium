@@ -7,12 +7,12 @@ export function Hero() {
     <section className="relative overflow-hidden bg-ink text-ivory">
       <Container className="grid items-center gap-12 py-16 md:py-24 lg:grid-cols-[1.05fr_1fr]">
         <div>
-          <p className="eyebrow text-gold-soft">For plumbing, HVAC, and home-services owners</p>
+          <p className="eyebrow text-gold-soft">For owners building what comes next</p>
           <h1 className="mt-5 text-5xl font-semibold leading-[1.02] md:text-7xl">
             {'Turn decades of work into wealth your family keeps.'}
           </h1>
           <p className="mt-7 max-w-xl text-xl leading-relaxed text-ivory/80">
-            Heiridium helps owners approaching retirement understand what their company is worth, prepare it for a sale
+            Heiridium helps owners of established businesses understand what their company is worth, prepare it for a sale
             or family transfer, and plan for what they keep after taxes, with your CPA and attorney at the table.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
@@ -36,8 +36,8 @@ export function Hero() {
         </div>
         <div className="relative">
           <Image
-            src="/images/hero-owner.png"
-            alt="A gray-haired plumbing and HVAC company owner standing in his organized parts shop while two technicians load a service van."
+            src="/images/hero-leadership.png"
+            alt="A business owner meeting with members of her leadership team around a conference table."
             width={1376}
             height={768}
             priority

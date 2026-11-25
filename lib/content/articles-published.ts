@@ -1,6 +1,8 @@
-import type { Article, Person } from './types'
+import type { Article, Industry, Person } from './types'
 
 export const editorial: Person = { name: 'Heiridium Editorial Team', role: 'Advisory staff' }
+
+export const ALL_INDUSTRIES: Industry[] = ['retail', 'construction-trades', 'ecommerce', 'professional-services', 'technology-it-services']
 
 export const publishedArticles: Article[] = [
   {
@@ -11,7 +13,7 @@ export const publishedArticles: Article[] = [
     directAnswer:
       'Profit measures what you earned on paper during a period. Cash flow measures what actually moved through the bank. In HVAC and plumbing companies the two drift apart because of receivables, inventory, equipment purchases, loan principal, and owner distributions, none of which line up neatly with when revenue is recorded.',
     topic: 'business-performance',
-    industries: ['hvac', 'plumbing', 'home-services'],
+    industries: ALL_INDUSTRIES,
     tags: ['exit-readiness'],
     author: editorial,
     requiresProfessionalReview: false,
@@ -68,7 +70,7 @@ export const publishedArticles: Article[] = [
     directAnswer:
       'A useful monthly close reconciles every bank and credit account, records all revenue and job costs in the right month, reviews receivables and payables, counts or estimates inventory, and produces a P&L, balance sheet, and cash flow statement your team reviews within about two weeks of month end.',
     topic: 'business-performance',
-    industries: ['hvac', 'plumbing', 'home-services'],
+    industries: ['construction-trades', 'hvac', 'plumbing'],
     author: editorial,
     requiresProfessionalReview: false,
     status: 'published',
@@ -209,11 +211,11 @@ export const publishedArticles: Article[] = [
     slug: 'how-to-find-out-if-your-company-can-run-without-you',
     title: 'How to find out if your company can run without you',
     summary:
-      'A practical way for trade business owners to measure founder dependence, the factor that most often reduces value and complicates succession.',
+      'A practical way for business owners to measure founder dependence, the factor that most often reduces value and complicates succession.',
     directAnswer:
       'List every decision, relationship, and task that still requires you, then test it: step away for planned periods, track what comes back to you, and assign an owner and a documented process for each item. A company that can run for a month without its founder is easier to sell, finance, and pass to the next generation.',
     topic: 'exit-readiness',
-    industries: ['hvac', 'plumbing', 'home-services'],
+    industries: ALL_INDUSTRIES,
     tags: ['succession-wealth'],
     author: editorial,
     requiresProfessionalReview: false,
@@ -254,13 +256,13 @@ export const publishedArticles: Article[] = [
   },
   {
     slug: 'sell-the-company-or-pass-it-to-family',
-    title: 'Sell the company or pass it to family?',
+    title: 'Sell the business, pass it to family, or hire management?',
     summary:
       'A framework for business-owning families weighing a sale against a family transfer or continued ownership under professional management.',
     directAnswer:
       'There are usually three paths: sell to an outside buyer, transfer ownership within the family, or keep ownership while professional managers run the company. The right choice depends on your financial needs, your family’s interest and readiness, the company’s independence from you, and how much risk you want to keep.',
     topic: 'succession-wealth',
-    industries: ['hvac', 'plumbing', 'home-services'],
+    industries: ALL_INDUSTRIES,
     author: editorial,
     requiresProfessionalReview: false,
     status: 'published',
@@ -298,13 +300,13 @@ export const publishedArticles: Article[] = [
   },
   {
     slug: 'who-owns-your-company-name-domain-and-phone-number',
-    title: 'Who owns your company name, domain, and phone number?',
+    title: 'Map who owns your company’s critical accounts, domains, and data',
     summary:
       'Buyers expect the company to own its brand, website, and phone numbers. Here is how to check before diligence begins.',
     directAnswer:
       'Confirm that the operating company, not you personally or a former employee or vendor, is the registered owner of its trade name and any trademark, its website domain, its main phone numbers, and its key software and advertising accounts. Fix gaps early, because transfers can take weeks.',
     topic: 'exit-readiness',
-    industries: ['hvac', 'plumbing', 'home-services'],
+    industries: ALL_INDUSTRIES,
     tags: ['tax-asset-protection'],
     author: editorial,
     requiresProfessionalReview: false,

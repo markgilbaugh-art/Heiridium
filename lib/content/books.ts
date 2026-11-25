@@ -59,7 +59,7 @@ export const books: Book[] = [
       'Cover of Build a Profitable Business, Heiridium Book I: charcoal bookcloth with a burgundy top stripe and a gold staircase emblem.',
     seoTitle: 'Build a Profitable Business | Heiridium Book I',
     seoDescription:
-      'Book I of the Heiridium series gives HVAC, plumbing, and home-services owners a 90-day plan for leadership, pricing, job costing, clean books, and cash flow.',
+      'Book I of the Heiridium series gives business owners a 90-day plan for leadership, pricing, job costing, clean books, and cash flow.',
     tagline: 'A 90-day plan for stronger margins, cleaner books, and a company that runs on process.',
     readerProfile:
       'Owners whose company keeps getting busier while margins and cash flow stay flat, and who suspect the business depends too heavily on them.',
@@ -103,7 +103,7 @@ export const books: Book[] = [
       'Cover of Protect What You Built, Heiridium Book II: charcoal bookcloth with a sapphire blue top stripe and a gold shield emblem.',
     seoTitle: 'Protect What You Built | Heiridium Book II',
     seoDescription:
-      'Book II helps trade business owners review ownership structures, risk, trusts, insurance, and pre-transaction tax questions with their CPA and attorney.',
+      'Book II helps business owners review ownership structures, risk, trusts, insurance, and pre-transaction tax questions with their CPA and attorney.',
     tagline: 'Ownership, risk, and tax questions to settle before anyone makes you an offer.',
     readerProfile:
       'Owners with a profitable company who have not reviewed their entity structure, insurance, or estate documents in years, and who may face a transaction within five years.',
@@ -146,7 +146,7 @@ export const books: Book[] = [
       'Cover of Build a Sellable Business, Heiridium Book III: charcoal bookcloth with an emerald green top stripe and a gold bridge emblem.',
     seoTitle: 'Build a Sellable Business | Heiridium Book III',
     seoDescription:
-      'Book III shows HVAC and plumbing owners how to reduce founder dependence, document reliable earnings, prepare for buyer diligence, and compare offers.',
+      'Book III shows business owners how to reduce founder dependence, document reliable earnings, prepare for buyer diligence, and compare offers.',
     tagline: 'Make your company something a buyer can verify, finance, and run without you.',
     readerProfile:
       'Owners who are considering a sale in the next one to five years, or who have already been approached by a buyer or private equity group.',

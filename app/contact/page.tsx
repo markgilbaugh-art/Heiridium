@@ -7,7 +7,7 @@ import { pageMetadata } from '@/lib/site'
 export const metadata: Metadata = pageMetadata({
   title: 'Schedule a Private Conversation | Heiridium',
   description:
-    'Request a confidential conversation about your plumbing, HVAC, or home-services company, its value, and your options for a sale or family succession.',
+    'Request a confidential conversation about your company, its value, and your options for a sale or family succession.',
   path: '/contact',
 })
 

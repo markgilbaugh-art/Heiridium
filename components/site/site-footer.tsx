@@ -8,8 +8,7 @@ const planning = [
   { label: 'Exit planning', href: '/exit-planning' },
   { label: 'Tax planning before a sale', href: '/tax-planning-before-a-sale' },
   { label: 'Succession planning', href: '/succession-planning' },
-  { label: 'HVAC companies', href: '/industries/hvac' },
-  { label: 'Plumbing companies', href: '/industries/plumbing' },
+  { label: 'Who We Serve', href: '/industries' },
 ]
 
 export function SiteFooter() {

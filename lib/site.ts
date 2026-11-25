@@ -13,10 +13,14 @@ export const mainNav = [
   { label: 'How We Help', href: '/how-we-help' },
   {
     label: 'Who We Serve',
-    href: '/industries/hvac',
+    href: '/industries',
     children: [
-      { label: 'HVAC companies', href: '/industries/hvac' },
-      { label: 'Plumbing companies', href: '/industries/plumbing' },
+      { label: 'Retail', href: '/industries/retail' },
+      { label: 'Construction & Trades', href: '/industries/construction-trades' },
+      { label: 'E-commerce', href: '/industries/ecommerce' },
+      { label: 'Professional Services', href: '/industries/professional-services' },
+      { label: 'Technology & IT Services', href: '/industries/technology-it-services' },
+      { label: 'All industries', href: '/industries' },
     ],
   },
   { label: 'Books', href: '/books' },

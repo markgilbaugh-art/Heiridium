@@ -1,6 +1,15 @@
 import type { TopicSlug } from './topics'
 
-export type Industry = 'hvac' | 'plumbing' | 'home-services'
+export type IndustryCategory =
+  | 'retail'
+  | 'construction-trades'
+  | 'ecommerce'
+  | 'professional-services'
+  | 'technology-it-services'
+
+export type IndustrySpecialty = 'hvac' | 'plumbing'
+
+export type Industry = IndustryCategory | IndustrySpecialty
 
 export type ArticleStatus = 'draft' | 'in-review' | 'scheduled' | 'published'
 
