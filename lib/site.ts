@@ -1,0 +1,61 @@
+import type { Metadata } from 'next'
+
+export const SITE_URL =
+  process.env.VERCEL_ENV === 'production'
+    ? 'https://heiridium.com'
+    : process.env.NEXT_PUBLIC_SITE_URL ?? 'https://heiridium.com'
+
+export const SITE_NAME = 'Heiridium'
+
+export const IS_INDEXABLE = process.env.VERCEL_ENV === 'production'
+
+export const mainNav = [
+  { label: 'How We Help', href: '/how-we-help' },
+  {
+    label: 'Who We Serve',
+    href: '/industries/hvac',
+    children: [
+      { label: 'HVAC companies', href: '/industries/hvac' },
+      { label: 'Plumbing companies', href: '/industries/plumbing' },
+    ],
+  },
+  { label: 'Books', href: '/books' },
+  { label: 'Academy', href: '/academy' },
+  { label: 'About', href: '/about' },
+] as const
+
+export const CONSULT_CTA = { label: 'Schedule a Private Conversation', href: '/contact' }
+
+type PageMetaInput = {
+  title: string
+  description: string
+  path: string
+  image?: string
+  noindex?: boolean
+  type?: 'website' | 'article'
+}
+
+export function pageMetadata({
+  title,
+  description,
+  path,
+  image = '/images/books/series.png',
+  noindex,
+  type = 'website',
+}: PageMetaInput): Metadata {
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      title,
+      description,
+      url: path,
+      siteName: SITE_NAME,
+      type,
+      images: [{ url: image, width: 1200, height: 630, alt: title }],
+    },
+    twitter: { card: 'summary_large_image', title, description, images: [image] },
+    robots: noindex ? { index: false, follow: false } : undefined,
+  }
+}
