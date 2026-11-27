@@ -7,7 +7,7 @@ export const exitPlanning: ServicePageData = {
   eyebrow: 'Exit planning',
   title: 'Exit planning for owners who want to sell on their terms',
   intro:
-    'Prepare your company for a sale years before you need one, so you choose the buyer, the timing, and the terms.',
+    'Prepare your company for a stronger sale, or explore a direct acquisition if you are ready to retire sooner.',
   image: {
     src: '/images/hero-owner.png',
     alt: 'A company owner standing in his parts shop as technicians prepare a service van.',
@@ -16,7 +16,7 @@ export const exitPlanning: ServicePageData = {
     title: 'Most owners start preparing too late',
     paragraphs: [
       'Many owners begin thinking about a sale when a buyer calls or their health changes. By then, the easy improvements to value, records, and leadership are no longer easy.',
-      'Buyers pay for earnings they can verify and a company that runs without its founder. Both take time to build. Starting three to five years ahead gives you room to raise profit, reduce dependence on you, and make tax and structure decisions while they still matter.',
+      'Buyers pay for earnings they can verify and a company that runs without its founder. Both take time to build. Starting early helps, but owners facing the Silver Wave of retirement may not have three more years. For suitable companies, Heiridium evaluates a direct purchase with a negotiated valuation and payment structure, potentially including seller financing. Independent advice is important because Heiridium has a financial interest as a prospective buyer.',
     ],
   },
   pillars: [
@@ -43,7 +43,7 @@ export const exitPlanning: ServicePageData = {
   bookSlugs: ['build-a-sellable-business', 'build-a-profitable-business'],
   faqs: [
     { q: 'How early should I start planning an exit?', a: 'Ideally three to five years before you expect to sell. That window allows time to raise documented earnings, build leadership, and plan structure with your CPA and attorney.' },
-    { q: 'Do you sell businesses?', a: 'No. Heiridium prepares owners and companies for a transition and coordinates with your M&A advisor or broker if you engage one. We do not take a success fee on a sale.' },
+    { q: 'Do you sell businesses?', a: 'Heiridium helps prepare companies for a sale and coordinates with independent M&A advisors. We also evaluate direct acquisitions of suitable businesses, potentially including seller financing. Any offer is subject to due diligence, sustainable cash flow and mutually agreed terms.' },
     { q: 'Can you tell me what my company is worth?', a: 'We help you understand the factors buyers weigh and where your company stands. A formal valuation, if you need one, should come from a qualified valuation professional.' },
     { q: 'What if I am not sure I want to sell?', a: 'That is common. The work that makes a company sellable also makes it more profitable and easier to own, whether you sell, transfer to family, or keep it.' },
   ],
@@ -169,11 +169,11 @@ export const howWeHelp: ServicePageData = {
     ],
   },
   pillars: [
-    { title: 'Operations', text: 'Pricing, job costing, a monthly close, KPIs, and the leadership structure that lets the company run without you.' },
+    { title: 'Operations', text: 'Leadership, accountability, employee development, pricing, job costing, accounting cleanup, marketing, social media, IT automation, CRM and ERP implementation, and operational KPIs.' },
     { title: 'Protection', text: 'Entity, insurance, asset ownership, contracts, and estate coordination with your professionals.' },
-    { title: 'Exit readiness', text: 'Value drivers, buyer-ready records, diligence preparation, and advisor coordination for a sale.' },
+    { title: 'Exit readiness', text: 'Value drivers, buyer-ready records, diligence preparation, advisor coordination, and direct acquisition evaluation for owners who need a sooner exit.' },
     { title: 'Succession', text: 'Family alignment, leadership development, and ownership transfer planning.' },
-    { title: 'Wealth planning', text: 'Coordinate with wealth and estate professionals on how proceeds serve your family for generations.' },
+    { title: 'Wealth planning', text: 'Coordinate with independent wealth advisors, CPAs and attorneys to evaluate appropriate trust structures, potential capital gains tax reduction or deferral, retirement income and generational wealth. Tax outcomes depend on individual circumstances and are not guaranteed.' },
     { title: 'Advisor coordination', text: 'We act as the steady point of contact across your CPA, attorney, banker, and M&A advisor.' },
   ],
   bookSlugs: ['build-a-profitable-business', 'build-a-sellable-business'],
