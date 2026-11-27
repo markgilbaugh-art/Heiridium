@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMetadata({
 
 const values = [
   { title: 'Plain language', text: 'No jargon and no pressure. You should understand every recommendation and the reason for it.' },
-  { title: 'Owner first', text: 'We are paid for our advice, not for closing a deal. Your goals set the direction.' },
+  { title: 'Owner first', text: 'Your goals set the direction. When Heiridium is a prospective buyer, we disclose our interest and encourage independent legal, financial and valuation advice.' },
   { title: 'Coordination', text: 'We bring your CPA, attorney, and wealth advisor together so decisions are made in the right order.' },
   { title: 'Discretion', text: 'Your company, your family, and your plans stay confidential.' },
 ]
@@ -40,8 +40,7 @@ export default function AboutPage() {
               stands for the same idea. Know where you are, know where you are going, and decide the route deliberately.
             </p>
             <p>
-              Our books and the Heiridium Academy share what we have learned freely. Our advisory work helps owners
-              apply it to their own companies and families.
+              Our consulting practice improves people, processes, technology and financial performance. For owners ready to retire, we also evaluate direct acquisitions and help coordinate independent tax and estate planning. Our aim is to preserve the businesses, jobs and family wealth that owners have spent decades creating.
             </p>
           </div>
           <Image
@@ -67,6 +66,7 @@ export default function AboutPage() {
           </div>
         </Container>
       </section>
+      <section className="border-t border-border py-20 md:py-24"><Container><SectionHeading eyebrow="Our five-year vision" title="Build a portfolio of enduring businesses" intro="Our goal is $1 billion in aggregate enterprise value under management across wholly owned, partially owned and managed companies. This is an aspirational target, not current assets or revenue." /><p className="mt-6 max-w-3xl text-muted-foreground">Our technology strategy centers on CorCarbon, a planned operating platform for CRM, ERP, automation, financial reporting and portfolio-level visibility. Shared services and professional management will support sustainable growth while preserving each company’s identity.</p></Container></section>
       <Process />
       <CtaBand />
     </>
