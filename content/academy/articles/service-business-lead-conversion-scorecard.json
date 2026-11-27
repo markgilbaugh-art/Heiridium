@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "slug": "service-business-lead-conversion-scorecard",
+  "pillar": "marketing-sales",
+  "topic": "business-performance",
+  "industries": [
+    "plumbing"
+  ],
+  "proposedDate": "2026-12-03",
+  "createdAt": "2026-11-27T05:44:15.383Z",
+  "content": {
+    "title": "A lead-conversion scorecard for service businesses",
+    "summary": "Before increasing advertising spend, find where suitable inquiries lose momentum. Use a lead-conversion scorecard to define stages, assign follow-up, and compare outcomes without overstating attribution.",
+    "directAnswer": "Track a consistent set of inquiry stages from first contact through qualification, estimate, decision, and completed work. Give each open inquiry an owner and next action. Review why suitable opportunities stall and compare outcomes by source and job type, while keeping customer promises and advertising claims accurate.",
+    "seoTitle": "A lead-conversion scorecard for service businesses",
+    "metaDescription": "Improve service-business follow-up with a lead-conversion scorecard covering inquiry stages, next actions, lost reasons, customer fit, and honest attribution.",
+    "primaryQuestion": "A lead-conversion scorecard for service businesses?",
+    "searchIntent": "Produce a practical owner decision and evidence checklist about service business lead conversion scorecard, rather than a general overview.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "Define a lead before comparing conversion rates",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "A wrong-number call, a duplicate website inquiry, and a qualified request for an estimate should not quietly share the same denominator. Write down what counts as an inquiry and what makes it qualified for the work the business can perform. Keep out-of-area requests, unsuitable job types, and duplicates visible without presenting them as lost sales.",
+        "sourceIds": [
+          "sba-management"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Use stages the team can observe. First contact, qualification, estimate sent, customer decision, scheduled work, and completed work may be useful for one service business. Another may need a different sequence. The point is consistency, not a universal funnel. Give each stage a clear entry condition so two employees would classify the same inquiry in the same way.",
+        "sourceIds": []
+      },
+      {
+        "type": "checklist",
+        "title": "Owner action checklist",
+        "items": [
+          "Define inquiries, duplicates, and qualified opportunities consistently.",
+          "Give each stage an observable entry condition.",
+          "Assign one owner and a dated next action to open inquiries.",
+          "Review stage delays alongside service capacity.",
+          "Keep source attribution and lost reasons honest.",
+          "Compare sold work with completed work and customer outcomes."
+        ],
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Assign the next action to a person",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "A stage label does not tell the team what happens next. Each open inquiry needs an owner, a promised follow-up, and a date. If the customer is waiting for technical information, name the person supplying it. If the estimate is waiting for a decision, record the agreed follow-up rather than repeatedly contacting the customer without context.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Keep the scorecard limited to information needed for this process. Use the approved customer system for personal details and avoid copying sensitive information into broad management reports. Managers generally need stage, age, source, work type, owner, and outcome reason. They do not need a second uncontrolled collection of customer conversations to understand where follow-up is stalling.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Review stage delays before buying more inquiries",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Look at a recent set of suitable opportunities and identify where time accumulates. Are estimates delayed because a technician must inspect the work? Does a customer receive a promise that the schedule cannot support? Does an open inquiry remain assigned to someone who is unavailable? These are operating questions that advertising alone cannot answer.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Choose one bottleneck and test a change. For example, clarify who reviews an estimate exception or create a consistent handoff from the dispatcher to the estimator. Record the effort required and the customer experience. Faster response is only useful when the information is accurate and the proposed service can be delivered. Do not replace thoughtful qualification with pressure to mark every inquiry won.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Compare outcomes with the right context",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Review source and job type together where the volume supports a useful comparison. A source that brings a different mix of work may have a different conversion pattern for understandable reasons. Keep unknown sources as unknown rather than guessing. If an inquiry has several touchpoints, do not claim that a single channel caused the entire outcome without a justified method.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Record a concise reason when an opportunity closes without work. Examples include unsuitable scope, unavailable timing, no customer decision, or a competitor selected. These labels should reflect what the team actually knows. Avoid using price as the default reason when nobody asked. A few accurate reasons are more actionable than a complete-looking report filled with assumptions.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Connect promises with delivered work",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Compare the work sold with what the operations team completed and what the customer experienced. An apparent improvement in inquiry conversion can be misleading if it brings unsuitable work, rework, cancellations, or commitments the business cannot fulfill. Keep those downstream outcomes in the review so marketing and operations solve the same problem.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Review advertising and sales claims for accuracy, particularly statements about availability, performance, credentials, and expected results. The FTC's business guidance is a useful starting point for questions about supported claims. This scorecard does not establish legal compliance. It gives the owner a practical way to find follow-up gaps and test better coordination before assuming that more advertising is the only path to more useful work.",
+        "sourceIds": []
+      },
+      {
+        "type": "example",
+        "title": "A controlled next step",
+        "text": "Hypothetical example: a plumbing company sees many estimates waiting for a technical clarification. Instead of buying more inquiries immediately, it assigns a daily reviewer for those exceptions and tests the handoff on one work category. The manager checks response quality, scheduling feasibility, and eventual outcomes. The example illustrates a testable process and makes no claim about typical conversion gains or advertising returns.",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Continue with this related Academy guide",
+        "href": "/academy/why-profit-and-cash-flow-tell-different-stories",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Explore build a profitable business",
+        "href": "/books/build-a-profitable-business",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Schedule a confidential conversation about your next step",
+        "href": "/contact?source=academy&article=service-business-lead-conversion-scorecard",
+        "sourceIds": []
+      }
+    ],
+    "relatedBooks": [
+      "build-a-profitable-business"
+    ],
+    "relatedArticles": [
+      "why-profit-and-cash-flow-tell-different-stories"
+    ],
+    "calculations": [],
+    "imagePrompt": "Original photorealistic editorial featured image for Heiridium Academy. Landscape 16:9, ideally 1536 by 864. A service-company dispatcher and manager discussing customer follow-up in a tidy operations office, telephone, blank scheduling board blurred behind them, professional approachable expressions, navy workwear and subtle gold details. Realistic anatomy and hands, authentic established American business, understated premium navy, gold and silver visual palette, clean composition, subtle depth of field. No typography, logos, brands, watermark, fake financial charts, robots or staged luxury. Fictional illustrative people, not actual clients. Do not modify any existing logo.",
+    "imageAlt": "A service-company dispatcher and manager discussing customer follow-up in an organized operations office."
+  },
+  "sources": [
+    {
+      "id": "sba-management",
+      "title": "Manage your business - Small Business Administration",
+      "organization": "U.S. Small Business Administration",
+      "url": "https://www.sba.gov/counseling/manage-your-business/",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.213Z",
+      "contentSha256": "c7e334fb70d9640da5c68165aa24d7dbbf49b5e53d769238eeb2856dbc7b375c",
+      "supports": [
+        "A marketing plan connects business objectives with marketing and sales activity."
+      ]
+    },
+    {
+      "id": "ftc-advertising",
+      "title": "Advertising and Marketing | Federal Trade Commission",
+      "organization": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/business-guidance/advertising-marketing",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:41.044Z",
+      "contentSha256": "a679a065223c9b23ca8b7813c23cb254beeefb37677402b3d6fc2cbd4691cb16",
+      "supports": [
+        "Businesses should ensure advertising claims are truthful and supported."
+      ]
+    },
+    {
+      "id": "irs-recordkeeping",
+      "title": "Recordkeeping | Internal Revenue Service",
+      "organization": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.333Z",
+      "contentSha256": "5b7cb4b285344b37cce11eb8d576734a1253160712f6be8ffe4a4a99d5d70e60",
+      "supports": [
+        "Records help an owner monitor business progress."
+      ]
+    }
+  ],
+  "image": {
+    "src": "/images/academy/service-business-lead-conversion-scorecard.webp",
+    "alt": "A service-company dispatcher and manager discussing customer follow-up in an organized operations office.",
+    "width": 1536,
+    "height": 864,
+    "sha256": "4b1a10a0a282fe203bcb3ea8dffd65368d47a8b9d34c01f77722469e538a400e",
+    "generator": "OpenAI built-in image_gen; optimized locally with Sharp",
+    "promptSha256": "b872cca088455f41065becf82ab16ad2dd5ea95f90528bb51dbb4d8732def477"
+  },
+  "validation": {
+    "status": "pending",
+    "reviewedAt": null,
+    "report": null
+  },
+  "disclosure": "AI-assisted research and drafting. Human editorial approval is required before publication. AI-generated images are illustrative and do not depict actual clients."
+}

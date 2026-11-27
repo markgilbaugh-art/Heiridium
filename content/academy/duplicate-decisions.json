@@ -1,0 +1,27 @@
+{
+  "existingCount": 32,
+  "screenedAt": "2026-11-27",
+  "replacements": [
+    {
+      "requested": "Why profitable businesses can still run out of cash",
+      "existing": "why-profit-and-cash-flow-tell-different-stories",
+      "replacement": "thirteen-week-cash-forecast-owner-review"
+    },
+    {
+      "requested": "What happens when your business cannot run without you",
+      "existing": "how-to-find-out-if-your-company-can-run-without-you",
+      "replacement": "decision-authority-matrix-founder-handoff"
+    },
+    {
+      "requested": "Ten financial records every business buyer wants to see",
+      "existing": "what-buyers-look-for-in-clean-financials and what-belongs-in-a-buyer-data-room",
+      "replacement": "buyer-request-document-version-control"
+    },
+    {
+      "requested": "Turning a lifetime of business ownership into generational wealth",
+      "existing": "separate-family-ownership-from-leadership",
+      "replacement": "business-sale-family-wealth-planning-team"
+    }
+  ],
+  "semanticModelVerification": "Pending configured API access; not represented as completed."
+}

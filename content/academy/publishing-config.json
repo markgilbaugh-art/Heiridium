@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "enabled": false,
+  "timezone": "America/Chicago",
+  "publicationHour": 6,
+  "approvedInventoryTarget": 7,
+  "lowInventoryThreshold": 3,
+  "editorialActors": [
+    "markgilbaugh-art"
+  ],
+  "professionalActors": [],
+  "models": {
+    "research": "gpt-5.4",
+    "writer": "gpt-5.4-mini",
+    "validator": "gpt-5.4",
+    "image": "gpt-image-2"
+  },
+  "budget": {
+    "reservationCents": 250,
+    "dailyLimitCents": 500,
+    "monthlyLimitCents": 7500
+  },
+  "limits": {
+    "researchSources": 6,
+    "sourceBytes": 1500000,
+    "sourceCharacters": 16000,
+    "modelOutputTokens": 6000,
+    "maxCorrections": 1,
+    "requestTimeoutMs": 120000
+  },
+  "sourceDomains": [
+    "sba.gov",
+    "census.gov",
+    "bls.gov",
+    "irs.gov",
+    "federalreserve.gov",
+    "newyorkfed.org",
+    "fedsmallbusiness.org",
+    "score.org",
+    "ibba.org",
+    "bizbuysell.com",
+    "intuit.com",
+    "sec.gov",
+    "aicpa-cima.com",
+    "nist.gov",
+    "cisa.gov",
+    "ftc.gov",
+    "dol.gov",
+    "consumerfinance.gov",
+    "ready.gov"
+  ],
+  "deployment": {
+    "projectName": "heiridium",
+    "projectId": "prj_NLLRhlNQl74FwMs9xSAftYEws3B3",
+    "teamId": "team_4DPg4TYWgSzRUHPOwJSdNIJt",
+    "siteUrl": "https://heiridium.com",
+    "requireCommitVerification": true
+  },
+  "notifications": {
+    "githubIssues": true,
+    "assignee": "markgilbaugh-art"
+  },
+  "pricingReviewedAt": "2026-11-26",
+  "pricing": {
+    "gpt-5.4": {
+      "inputPerMillion": 2.5,
+      "outputPerMillion": 15
+    },
+    "gpt-5.4-mini": {
+      "inputPerMillion": 0.75,
+      "outputPerMillion": 4.5
+    },
+    "webSearchCallCents": 1
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "slug": "adjusted-ebitda-add-back-evidence-checklist",
+  "pillar": "business-valuation",
+  "topic": "exit-readiness",
+  "industries": [
+    "professional-services"
+  ],
+  "proposedDate": "2026-12-01",
+  "createdAt": "2026-11-27T05:44:15.383Z",
+  "content": {
+    "title": "Adjusted EBITDA: build an evidence file for add-backs",
+    "summary": "An add-back should be a supported explanation of a specific adjustment. Build a traceable evidence file, distinguish EBITDA from adjusted EBITDA, and keep disputed assumptions visible for qualified review.",
+    "directAnswer": "Begin with a reconciled earnings measure, identify each proposed adjustment separately, and attach the underlying entry, explanation, recurrence assessment, and treatment of any replacement cost. An owner proposal is not a buyer acceptance. An appropriately qualified accountant should review definitions and calculations before the schedule is used.",
+    "seoTitle": "Adjusted EBITDA: an add-back evidence checklist",
+    "metaDescription": "Build a traceable adjusted EBITDA add-back file with supporting entries, recurrence questions, replacement-cost checks, and a clear record of disputed items.",
+    "primaryQuestion": "Adjusted EBITDA: build an evidence file for add-backs?",
+    "searchIntent": "Produce a practical owner decision and evidence checklist about adjusted ebitda add back evidence checklist, rather than a general overview.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "Define the measure before collecting adjustments",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "People can use the same label for different calculations. Write the starting measure, the reporting period, and the reconciliation approach at the top of the schedule. EBITDA and adjusted EBITDA should not be treated as interchangeable labels. The SEC's non-GAAP guidance provides useful terminology, while its public-company requirements should not be casually presented as a rule governing every private-company negotiation.",
+        "sourceIds": [
+          "sec-non-gaap"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Ask the accountant to explain the starting financial information and any limitations. A schedule built on unreconciled records remains uncertain even when each proposed adjustment has a persuasive story. Keep accounting corrections separate from transaction adjustments. Correcting a recording error and proposing a different view of future operating earnings are different tasks that should be visible to the reviewer.",
+        "sourceIds": []
+      },
+      {
+        "type": "checklist",
+        "title": "Owner action checklist",
+        "items": [
+          "Define EBITDA and adjusted EBITDA separately.",
+          "Identify the reconciled starting measure and period.",
+          "Give every adjustment a unique evidence row.",
+          "Check recurrence and any necessary replacement cost.",
+          "Keep disputed items visible and avoid double counting.",
+          "Obtain qualified review of the final reconciliation and explanation."
+        ],
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Give every proposed add-back its own evidence row",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Record the transaction reference, period, account, amount, explanation, and location of supporting material. Use a unique identifier so the same item cannot quietly appear in several categories. If a proposed adjustment combines many entries, keep the detail available and show how it connects to the total. Avoid a single unexplained line labeled miscellaneous or owner expenses.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Describe the reason for the proposal in plain language. Was the expense unusual, related to a specific event, or connected to an owner's role? Then identify what is known and what is assumed. A label such as one-time is a question to examine, not evidence by itself. The relevant reviewer needs enough information to understand both the proposal and the objection someone might reasonably raise.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Ask what cost remains after the owner leaves",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Some proposed adjustments remove an expense without considering the work or resource that a future operator still needs. If the owner performs an essential role, identify how that role would be covered. If a facility arrangement changes, identify the assumption about future occupancy. Do not invent a replacement cost or assume that the full recorded expense disappears.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Have the appropriate professional explain how replacement assumptions should be reflected. Keep that conclusion distinct from the owner's preference. A defensible schedule can include disputed items, provided their status is explicit. An adjustment under discussion should not quietly move into the accepted total because a later version of the spreadsheet lost the comments.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Review recurrence and consistency",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Look across reporting periods for similar items. An event may be unusual in one period but part of a recurring pattern when the business is viewed over time. Ask what would cause it to happen again. Keep the evidence supporting that judgment and note the limits of the available history. The purpose is a reasoned assessment, not an argument that every inconvenient expense should be excluded.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Apply the same discipline to favorable and unfavorable items. Unusual revenue can matter as much as unusual expense when explaining performance. Ask the accountant and transaction advisers which adjustments are appropriate for the intended use. Definitions and treatment can be negotiated, so avoid describing the owner's schedule as an objective value of the business or a buyer's inevitable conclusion.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Maintain a controlled reconciliation",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Use one current schedule with a version date and a named custodian. Show which items are proposed, reviewed, accepted for a particular purpose, or unresolved. Record who changed an item and why. Keep confidential source material in approved storage and share only what the review requires. A file with clear boundaries is easier to evaluate than an email chain containing competing totals.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Before presenting the schedule, ask a qualified reviewer to trace selected items back to the records and forward to the reported measure. Make sure the final explanation is consistent with the calculation. This article offers an evidence framework, not an accounting opinion, a valuation, or advice on which adjustments a particular buyer should accept. Have an appropriately qualified accountant review the schedule and its intended use.",
+        "sourceIds": []
+      },
+      {
+        "type": "example",
+        "title": "A controlled next step",
+        "text": "Hypothetical example: an owner proposes excluding a particular expense as unusual. The evidence row links the entry and invoice, explains the event, and identifies similar spending in another period. The accountant asks whether a future operator would still need the underlying service. The item remains unresolved until that question is answered. A complete evidence row improves the discussion without guaranteeing that the proposed add-back will be accepted.",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Continue with this related Academy guide",
+        "href": "/academy/how-to-find-out-if-your-company-can-run-without-you",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Explore build a sellable business",
+        "href": "/books/build-a-sellable-business",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Schedule a confidential conversation about your next step",
+        "href": "/contact?source=academy&article=adjusted-ebitda-add-back-evidence-checklist",
+        "sourceIds": []
+      }
+    ],
+    "relatedBooks": [
+      "build-a-sellable-business"
+    ],
+    "relatedArticles": [
+      "how-to-find-out-if-your-company-can-run-without-you"
+    ],
+    "calculations": [],
+    "imagePrompt": "Original photorealistic editorial featured image for Heiridium Academy. Landscape 16:9, ideally 1536 by 864. An experienced finance professional at a tidy navy-and-walnut desk carefully comparing unmarked invoices and a blank ledger, silver calculator, natural window light, no screen content or readable numbers. Realistic anatomy and hands, authentic established American business, understated premium navy, gold and silver visual palette, clean composition, subtle depth of field. No typography, logos, brands, watermark, fake financial charts, robots or staged luxury. Fictional illustrative people, not actual clients. Do not modify any existing logo.",
+    "imageAlt": "A finance professional comparing unmarked supporting records at a tidy desk with a silver calculator."
+  },
+  "sources": [
+    {
+      "id": "sec-non-gaap",
+      "title": "SEC.gov | Non-GAAP Financial Measures",
+      "organization": "U.S. Securities and Exchange Commission",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.736Z",
+      "contentSha256": "200d3566c327ad04f92f74f0efb2017aa1a9aa94cf0e0e7e4447dc9ed44dc5ee",
+      "supports": [
+        "SEC guidance distinguishes EBITDA from measures calculated differently, such as adjusted EBITDA."
+      ]
+    },
+    {
+      "id": "irs-recordkeeping",
+      "title": "Recordkeeping | Internal Revenue Service",
+      "organization": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.333Z",
+      "contentSha256": "5b7cb4b285344b37cce11eb8d576734a1253160712f6be8ffe4a4a99d5d70e60",
+      "supports": [
+        "Supporting business records help substantiate financial information."
+      ]
+    },
+    {
+      "id": "sba-management",
+      "title": "Manage your business - Small Business Administration",
+      "organization": "U.S. Small Business Administration",
+      "url": "https://www.sba.gov/counseling/manage-your-business/",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.213Z",
+      "contentSha256": "c7e334fb70d9640da5c68165aa24d7dbbf49b5e53d769238eeb2856dbc7b375c",
+      "supports": [
+        "Owners should maintain bookkeeping and understand business finances."
+      ]
+    }
+  ],
+  "image": {
+    "src": "/images/academy/adjusted-ebitda-add-back-evidence-checklist.webp",
+    "alt": "A finance professional comparing unmarked supporting records at a tidy desk with a silver calculator.",
+    "width": 1536,
+    "height": 864,
+    "sha256": "42713896ab37d3934306486ac8fab182ef3c6f9358008a2c6b383151fe3d2129",
+    "generator": "OpenAI built-in image_gen; optimized locally with Sharp",
+    "promptSha256": "99b1864486913e03b9537d1452ef81ca25d20982de682cd93203eb4f7b76cbdb"
+  },
+  "validation": {
+    "status": "pending",
+    "reviewedAt": null,
+    "report": null
+  },
+  "disclosure": "AI-assisted research and drafting. Human editorial approval is required before publication. AI-generated images are illustrative and do not depict actual clients."
+}

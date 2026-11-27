@@ -100,7 +100,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <SectionHeading
               eyebrow="Heiridium Academy"
-              title="Practical guides, published every weekday"
+              title="Practical guides, published regularly"
               intro="Plain-language articles on profit, protection, exit readiness, and succession for owners of established businesses."
             />
             <Link href="/academy" className="inline-flex shrink-0 items-center gap-2 font-medium text-ink hover:text-gold">

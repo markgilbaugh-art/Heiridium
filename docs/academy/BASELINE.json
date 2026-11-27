@@ -1,0 +1,232 @@
+{
+  "slugs": [
+    "why-profit-and-cash-flow-tell-different-stories",
+    "what-to-include-in-a-monthly-close",
+    "job-costing-for-plumbing-contractors",
+    "what-buyers-look-for-in-hvac-maintenance-agreements",
+    "how-to-find-out-if-your-company-can-run-without-you",
+    "sell-the-company-or-pass-it-to-family",
+    "who-owns-your-company-name-domain-and-phone-number",
+    "improve-plumbing-dispatch-and-first-time-fix-rates",
+    "find-the-causes-of-store-shrink",
+    "calculate-ecommerce-contribution-margin",
+    "measure-billable-utilization-and-realized-rates",
+    "track-profitability-by-managed-services-contract",
+    "review-estimated-versus-actual-job-costs",
+    "reduce-external-retail-theft",
+    "reduce-employee-related-retail-losses",
+    "it-infrastructure-security-checklist",
+    "reduce-ecommerce-account-takeover-and-payment-fraud",
+    "build-an-employee-offboarding-checklist",
+    "control-purchasing-and-material-losses",
+    "ecommerce-marketing-plan-acquisition-cost-repeat-purchases-margins",
+    "measure-incremental-profit-from-retail-promotions",
+    "track-hvac-maintenance-agreement-renewals-and-profitability",
+    "reduce-founder-dependence-in-client-relationships",
+    "document-client-environments-and-handoffs",
+    "what-buyers-look-for-in-clean-financials",
+    "what-belongs-in-a-buyer-data-room",
+    "what-to-ask-your-cpa-before-signing-a-letter-of-intent",
+    "prepare-a-store-manager-to-take-over-more-decisions",
+    "prepare-a-second-in-command-before-you-step-back",
+    "prepare-ecommerce-accounts-trademarks-and-contracts-for-buyer-review",
+    "separate-family-ownership-from-leadership",
+    "how-to-compare-offers-by-cash-risk-and-after-tax-proceeds"
+  ],
+  "live": [
+    {
+      "slug": "who-owns-your-company-name-domain-and-phone-number",
+      "title": "Map who owns your company’s critical accounts, domains, and data",
+      "status": "scheduled",
+      "publishAt": "2026-11-26T13:00:00.000Z"
+    },
+    {
+      "slug": "sell-the-company-or-pass-it-to-family",
+      "title": "Sell the business, pass it to family, or hire management?",
+      "status": "published",
+      "publishAt": "2026-11-25T13:00:00.000Z"
+    },
+    {
+      "slug": "how-to-find-out-if-your-company-can-run-without-you",
+      "title": "How to find out if your company can run without you",
+      "status": "published",
+      "publishAt": "2026-11-24T13:00:00.000Z"
+    },
+    {
+      "slug": "review-estimated-versus-actual-job-costs",
+      "title": "Review estimated versus actual job costs",
+      "status": "published",
+      "publishAt": "2026-11-23T13:00:00.000Z"
+    },
+    {
+      "slug": "what-buyers-look-for-in-hvac-maintenance-agreements",
+      "title": "What buyers look for in HVAC maintenance agreements",
+      "status": "published",
+      "publishAt": "2026-11-22T13:00:00.000Z"
+    },
+    {
+      "slug": "job-costing-for-plumbing-contractors",
+      "title": "Job costing for plumbing contractors",
+      "status": "published",
+      "publishAt": "2026-11-21T13:00:00.000Z"
+    },
+    {
+      "slug": "what-to-include-in-a-monthly-close",
+      "title": "What to include in a monthly close for a service contractor",
+      "status": "published",
+      "publishAt": "2026-11-20T13:00:00.000Z"
+    },
+    {
+      "slug": "track-profitability-by-managed-services-contract",
+      "title": "Track profitability by managed-services contract",
+      "status": "published",
+      "publishAt": "2026-11-19T13:00:00.000Z"
+    },
+    {
+      "slug": "why-profit-and-cash-flow-tell-different-stories",
+      "title": "Why profit and cash flow tell different stories",
+      "status": "published",
+      "publishAt": "2026-11-18T13:00:00.000Z"
+    },
+    {
+      "slug": "measure-billable-utilization-and-realized-rates",
+      "title": "Measure billable utilization and realized rates",
+      "status": "published",
+      "publishAt": "2026-11-17T13:00:00.000Z"
+    },
+    {
+      "slug": "calculate-ecommerce-contribution-margin",
+      "title": "Calculate contribution margin after ads, returns, and shipping",
+      "status": "published",
+      "publishAt": "2026-11-16T13:00:00.000Z"
+    },
+    {
+      "slug": "find-the-causes-of-store-shrink",
+      "title": "Find the causes of store shrink before changing procedures",
+      "status": "published",
+      "publishAt": "2026-11-15T13:00:00.000Z"
+    },
+    {
+      "slug": "improve-plumbing-dispatch-and-first-time-fix-rates",
+      "title": "How to improve plumbing dispatch and first-time fix rates",
+      "status": "published",
+      "publishAt": "2026-11-14T13:00:00.000Z"
+    }
+  ],
+  "queue": [
+    {
+      "slug": "reduce-external-retail-theft",
+      "title": "Reduce external retail theft with layout, visibility, and inventory controls",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "reduce-employee-related-retail-losses",
+      "title": "Reduce employee-related retail losses with POS permissions and reconciliation",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "it-infrastructure-security-checklist",
+      "title": "IT infrastructure security checklist for business owners",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "reduce-ecommerce-account-takeover-and-payment-fraud",
+      "title": "Reduce unauthorized account access and payment fraud in e-commerce",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "build-an-employee-offboarding-checklist",
+      "title": "Build a repeatable employee offboarding checklist",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "control-purchasing-and-material-losses",
+      "title": "Control purchasing and reduce unexplained material losses",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "ecommerce-marketing-plan-acquisition-cost-repeat-purchases-margins",
+      "title": "Build an e-commerce marketing plan around acquisition cost, repeat purchases, and margins",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "measure-incremental-profit-from-retail-promotions",
+      "title": "Measure which retail promotions generate incremental profit",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "track-hvac-maintenance-agreement-renewals-and-profitability",
+      "title": "Track HVAC maintenance agreement renewals and profitability",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "reduce-founder-dependence-in-client-relationships",
+      "title": "Reduce founder dependence in sales and client relationships",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "document-client-environments-and-handoffs",
+      "title": "Document client environments and operational handoffs",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "what-buyers-look-for-in-clean-financials",
+      "title": "What buyers look for in clean financials",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "what-belongs-in-a-buyer-data-room",
+      "title": "What to include in a buyer data room",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "what-to-ask-your-cpa-before-signing-a-letter-of-intent",
+      "title": "Tax questions to bring to your CPA before signing a letter of intent",
+      "status": "in-review",
+      "review": true
+    },
+    {
+      "slug": "prepare-a-store-manager-to-take-over-more-decisions",
+      "title": "Prepare a store manager to take over more decisions",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "prepare-a-second-in-command-before-you-step-back",
+      "title": "Prepare a second-in-command before you step back",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "prepare-ecommerce-accounts-trademarks-and-contracts-for-buyer-review",
+      "title": "Prepare marketing accounts, trademarks, and fulfillment contracts for buyer review",
+      "status": "draft",
+      "review": true
+    },
+    {
+      "slug": "separate-family-ownership-from-leadership",
+      "title": "Separate family ownership from leadership",
+      "status": "draft",
+      "review": false
+    },
+    {
+      "slug": "how-to-compare-offers-by-cash-risk-and-after-tax-proceeds",
+      "title": "How to compare offers by cash at closing, risk, and after-tax proceeds",
+      "status": "draft",
+      "review": true
+    }
+  ]
+}
