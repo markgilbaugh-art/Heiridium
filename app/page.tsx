@@ -16,9 +16,9 @@ import { pageMetadata } from '@/lib/site'
 export const revalidate = 3600
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Exit, Succession & Profit Planning for Business Owners | Heiridium',
+  title: 'Business Consulting, Acquisitions & Generational Wealth | Heiridium',
   description:
-    'Heiridium helps owners of established businesses improve profitability, prepare for a sale or family succession, and build generational wealth.',
+    'Heiridium improves business profitability, prepares owners for liquidity events, explores direct acquisitions and helps families build generational wealth.',
   path: '/',
 })
 
@@ -71,6 +71,16 @@ export default function HomePage() {
     <>
       <Hero />
       <Outcomes />
+      <section className="border-t border-border bg-secondary/60 py-20 md:py-28">
+        <Container>
+          <SectionHeading eyebrow="The Silver Wave" title="Ready to retire, but your business is not ready to sell?" intro="You have spent 30 or 40 years building a business, supporting employees and serving your community. You should not have to spend another three years getting ready to retire." />
+          <div className="mt-10 grid gap-10 md:grid-cols-2">
+            <div><h3 className="text-3xl font-semibold text-ink">Prepare for a stronger exit</h3><p className="mt-4 text-muted-foreground">We help clean up accounting, improve margins, develop leadership, automate workflows and prepare reliable financial records for buyers.</p></div>
+            <div><h3 className="text-3xl font-semibold text-ink">Explore a sale directly to Heiridium</h3><p className="mt-4 text-muted-foreground">For suitable businesses, we evaluate an acquisition based on current performance, with negotiated terms that may include seller financing. We take responsibility for improving operations after closing. Payments depend on agreed terms and the ability to meet obligations; seller financing carries risk.</p></div>
+          </div>
+          <Link href="/exit-planning" className="mt-8 inline-flex items-center gap-2 font-medium text-ink hover:text-gold">Explore your retirement options <ArrowRight className="size-4" aria-hidden="true" /></Link>
+        </Container>
+      </section>
       <section className="border-t border-border py-20 md:py-28">
         <Container>
           <SectionHeading
