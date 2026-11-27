@@ -66,7 +66,6 @@ export default function AboutPage() {
           </div>
         </Container>
       </section>
-      <section className="border-t border-border py-20 md:py-24"><Container><SectionHeading eyebrow="Our five-year vision" title="Build a portfolio of enduring businesses" intro="Our goal is $1 billion in aggregate enterprise value under management across wholly owned, partially owned and managed companies. This is an aspirational target, not current assets or revenue." /><p className="mt-6 max-w-3xl text-muted-foreground">Our technology strategy centers on CorCarbon, a planned operating platform for CRM, ERP, automation, financial reporting and portfolio-level visibility. Shared services and professional management will support sustainable growth while preserving each company’s identity.</p></Container></section>
       <Process />
       <CtaBand />
     </>
