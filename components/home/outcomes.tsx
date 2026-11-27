@@ -4,22 +4,22 @@ import { Container, SectionHeading } from '@/components/site/sections'
 
 const outcomes = [
   {
-    title: 'Know what your company is worth',
-    text: 'See your business the way a buyer or lender does: adjusted earnings, recurring revenue, founder dependence, and the factors that move value up or down.',
-    href: '/exit-planning',
-    link: 'Exit planning',
+    title: 'Build a profitable business',
+    text: 'Improve leadership, accountability, processes, technology, marketing, social media, accounting and operational efficiency. Build a company that earns more and depends less on you.',
+    href: '/how-we-help',
+    link: 'Business consulting',
   },
   {
-    title: 'Plan for what you keep after taxes',
-    text: 'The headline price is not what you take home. We help you frame structure, timing, and tax questions early so your CPA and attorney can plan with you, not after you sign.',
-    href: '/tax-planning-before-a-sale',
-    link: 'Tax planning before a sale',
+    title: 'Prepare for a sale or retire sooner',
+    text: 'Prepare for a liquidity event or explore a direct acquisition by Heiridium, including negotiated seller financing where appropriate. You may not need to spend another three years preparing to retire.',
+    href: '/exit-planning',
+    link: 'Explore exit options',
   },
   {
     title: 'Build wealth that lasts for generations',
-    text: 'Whether you sell, pass the company to family, or keep ownership under professional management, we help your family prepare for what comes next.',
-    href: '/succession-planning',
-    link: 'Succession planning',
+    text: 'Coordinate with independent attorneys, CPAs and wealth advisors to evaluate trust structures, potential capital gains tax savings, retirement income and family succession.',
+    href: '/tax-planning-before-a-sale',
+    link: 'Preserve your wealth',
   },
 ]
 
@@ -29,8 +29,8 @@ export function Outcomes() {
       <Container>
         <SectionHeading
           eyebrow="What owners come to us for"
-          title="Three questions every owner eventually asks"
-          intro="Most owners we meet have spent 25 or 30 years building a company. The next decisions will shape what that work means for their family."
+          title="Three ways we help you build your legacy"
+          intro="Whether you want to improve profitability, sell your company or retire now, your goals come first."
         />
         <div className="mt-14 grid gap-px bg-border md:grid-cols-3">
           {outcomes.map((o, i) => (
