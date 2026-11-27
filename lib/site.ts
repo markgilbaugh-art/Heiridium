@@ -7,7 +7,8 @@ export const SITE_NAME = 'Heiridium'
 export const IS_INDEXABLE = process.env.VERCEL_ENV === 'production'
 
 export const mainNav = [
-  { label: 'How We Help', href: '/how-we-help' },
+  { label: 'Consulting', href: '/how-we-help' },
+  { label: 'Sell Your Business', href: '/exit-planning' },
   {
     label: 'Who We Serve',
     href: '/industries',
