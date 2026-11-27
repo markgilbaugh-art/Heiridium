@@ -15,7 +15,7 @@ export const revalidate = 3600
 export const metadata: Metadata = pageMetadata({
   title: 'Heiridium Academy: Guides for Established Business Owners',
   description:
-    'Practical guides on profit, tax and asset protection, exit readiness, and succession for owners of retail, construction and trades, e-commerce, professional services, and technology businesses. New articles every weekday.',
+    'Practical guides on profit, tax and asset protection, exit readiness, and succession for owners of retail, construction and trades, e-commerce, professional services, and technology businesses. New articles regularly.',
   path: '/academy',
 })
 
@@ -26,7 +26,7 @@ export default function AcademyPage() {
       <PageHero
         eyebrow="Heiridium Academy"
         title="Plain-language guides for business owners"
-        intro="New articles every weekday on running a more profitable company, protecting it, preparing for a sale, and planning for your family."
+        intro="New articles regularly on running a more profitable company, protecting it, preparing for a sale, and planning for your family."
         crumbs={[{ label: 'Academy', href: '/academy' }]}
       />
 

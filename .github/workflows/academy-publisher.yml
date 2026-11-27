@@ -1,0 +1,142 @@
+name: Academy publisher
+on:
+  schedule:
+    - cron: "15 5 * * *"
+      timezone: America/Chicago
+    - cron: "0 6 * * *"
+      timezone: America/Chicago
+    - cron: "0 7 * * 1"
+      timezone: America/Chicago
+  workflow_dispatch:
+    inputs:
+      operation:
+        type: choice
+        options:
+          [
+            status,
+            generate,
+            verify-draft,
+            regenerate-image,
+            preview,
+            approve,
+            publish,
+            retry,
+            pause,
+            resume,
+            weekly,
+          ]
+        default: status
+        required: true
+      slug:
+        description: Calendar/article slug (generate, preview or approve)
+        type: string
+      review_kind:
+        type: choice
+        options: [editorial, professional]
+        default: editorial
+      reviewer_name:
+        description: Actual human reviewer name, only for approve
+        type: string
+      qualification:
+        description: Relevant professional qualification, only for professional approval
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: academy-engine
+  cancel-in-progress: false
+jobs:
+  academy:
+    if: github.ref == 'refs/heads/main' && vars.ACADEMY_ENGINE_CONFIGURED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # Configure this environment for protected main only. Do not enable scheduled jobs
+    # until App installation, reviewers, credentials and caps are verified.
+    environment: academy-publisher
+    permissions:
+      contents: read
+      actions: write
+      issues: write
+    env:
+      ACADEMY_PUBLISHING_DISABLED: ${{ vars.ACADEMY_PUBLISHING_DISABLED }}
+      GH_TOKEN: ${{ github.token }}
+      ACADEMY_SLUG: ${{ inputs.slug }}
+      ACADEMY_REVIEW_KIND: ${{ inputs.review_kind }}
+      ACADEMY_REVIEWER_NAME: ${{ inputs.reviewer_name }}
+      ACADEMY_QUALIFICATION: ${{ inputs.qualification }}
+    steps:
+      - uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        id: app
+        with:
+          app-id: ${{ secrets.ACADEMY_APP_ID }}
+          private-key: ${{ secrets.ACADEMY_APP_PRIVATE_KEY }}
+          owner: markgilbaugh-art
+          repositories: Heiridium
+          permission-contents: write
+          permission-pull-requests: write
+          permission-actions: read
+          permission-issues: write
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ steps.app.outputs.token }}
+      - uses: pnpm/action-setup@f40ffcd9367d9f12939873eb1018b921a783ffaa # v4
+        with:
+          version: 12.3.4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Select operation without interpolating user input into shell
+        id: mode
+        env:
+          REQUESTED: ${{ inputs.operation }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          node -e 'const fs=require("fs");const mode=process.env.REQUESTED||(process.env.SCHEDULE==="15 5 * * *"?"generate":process.env.SCHEDULE==="0 7 * * 1"?"weekly":"publish");if(!["status","generate","verify-draft","regenerate-image","preview","approve","publish","retry","pause","resume","weekly"].includes(mode))throw Error("Invalid mode");fs.appendFileSync(process.env.GITHUB_OUTPUT,`operation=${mode}\n`)'
+      - name: Check approved content and code
+        run: pnpm check:academy
+      - name: Skip duplicate or unnecessary generation before reserving cost
+        id: preflight
+        env:
+          ACADEMY_OPERATION: ${{ steps.mode.outputs.operation }}
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+        run: pnpm academy preflight
+      - name: Reserve generation cost before calling any paid API
+        id: budget
+        if: steps.preflight.outputs.needed == 'true' && contains(fromJSON('["generate","verify-draft","regenerate-image"]'), steps.mode.outputs.operation)
+        run: pnpm academy budget-reserve
+      - name: Durably record reservation (a retry consumes another reservation)
+        if: steps.preflight.outputs.needed == 'true' && contains(fromJSON('["generate","verify-draft","regenerate-image"]'), steps.mode.outputs.operation)
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: ${{ steps.budget.outputs.artifact }}
+          path: content/academy/publishing-config.json
+          retention-days: 90
+          if-no-files-found: error
+      - name: Run Academy operation
+        if: steps.preflight.outputs.needed == 'true'
+        env:
+          OPERATION: ${{ steps.mode.outputs.operation }}
+          ACADEMY_BUDGET_ARTIFACT: ${{ steps.budget.outputs.artifact }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          VERCEL_READ_TOKEN: ${{ secrets.VERCEL_READ_TOKEN }}
+          GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT }}
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+          # App also needs Actions read and Issues write on this repository.
+        run: pnpm academy "$OPERATION"
+      - name: Preserve redacted operation report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: academy-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .academy-run.json
+          retention-days: 90
+          if-no-files-found: ignore
+      - name: Notify administrator on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: pnpm academy notify-failure

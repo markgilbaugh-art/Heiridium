@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "slug": "quickbooks-cleanup-before-business-sale",
+  "pillar": "accounting-cleanup",
+  "topic": "business-performance",
+  "industries": [
+    "retail"
+  ],
+  "proposedDate": "2026-12-02",
+  "createdAt": "2026-11-27T05:44:15.383Z",
+  "content": {
+    "title": "Clean up QuickBooks before a business sale",
+    "summary": "Prepare a controlled QuickBooks cleanup before a buyer review. Preserve an audit trail, reconcile to external support, document exceptions, and avoid turning a cleanup into an unexplained rewrite of historical results.",
+    "directAnswer": "Start with a current export and an agreed cleanup scope. Reconcile key accounts, investigate duplicate or unsupported entries, and document changes with the bookkeeper and accountant. Preserve the audit trail and distinguish corrections from proposed transaction adjustments. Do not delete or backdate entries simply to make a report look cleaner.",
+    "seoTitle": "Clean up QuickBooks before a business sale",
+    "metaDescription": "Prepare QuickBooks for a business sale with a controlled cleanup scope, reconciliations, an audit trail, clear exceptions, and qualified accounting review.",
+    "primaryQuestion": "Clean up QuickBooks before a business sale?",
+    "searchIntent": "Produce a practical owner decision and evidence checklist about quickbooks cleanup before business sale, rather than a general overview.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "Agree on what the cleanup is meant to accomplish",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Define the reporting periods, accounts, and questions in scope before anyone starts changing entries. A cleanup should make the records more supportable, not create a preferred earnings story. Ask the accountant which changes require their review, which periods should remain restricted, and how corrections will be documented. Assign one person to maintain the issue list and prevent parallel fixes to the same problem.",
+        "sourceIds": [
+          "intuit-reconcile"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Export the reports and supporting schedules needed to preserve the starting point using the business's approved backup and retention process. Confirm the product edition and permissions before following software instructions, because screens and capabilities can differ. This article focuses on the control process rather than promising that a particular menu or automated feature is available in every QuickBooks account.",
+        "sourceIds": []
+      },
+      {
+        "type": "checklist",
+        "title": "Owner action checklist",
+        "items": [
+          "Define periods, accounts, permissions, and accountant review boundaries.",
+          "Preserve the starting reports and supporting material.",
+          "Reconcile to external evidence before adjusting balances.",
+          "Trace suspected duplicates and inspect relevant audit history.",
+          "Separate ledger corrections from transaction adjustments.",
+          "Deliver a current report package with an honest exception log."
+        ],
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Reconcile from external support inward",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Begin with accounts that have reliable external evidence, such as bank statements and lender statements. Use the account reconciliation workflow to compare recorded activity with the relevant support. Investigate differences instead of entering an unexplained adjustment merely to make a report balance. Have the accountant assess items whose treatment is uncertain.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Then review the schedules that explain receivables, payables, customer deposits, inventory where applicable, and other material balances. The owner should be able to identify who maintains each schedule and what exceptions remain. A balance can be mathematically consistent and still need explanation. Keep missing support, disputed amounts, and timing questions visible until the responsible person has resolved them.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Investigate duplicate and changed entries carefully",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Bank-feed activity, manual entry, and imported data can create questions about whether the same activity has been recorded more than once. Trace suspected duplicates to the underlying transaction and the relevant source. Do not remove an entry based only on a matching amount or a familiar description. Similar transactions may both be valid.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Use the audit history when a change to a transaction needs explanation. Identify who made the change, what was changed, and whether the current treatment is supported. Audit information is a review tool, not proof of misconduct. Ask neutral questions and involve the accountant when the accounting effect is unclear. Preserve the explanation so the next reviewer does not have to reconstruct the same issue.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Keep corrections separate from sale adjustments",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "A correction addresses an error or an unsupported accounting treatment. A proposed transaction adjustment explains a different view of earnings for a particular review. Keep those concepts in separate schedules and label them clearly. Do not alter the ledger simply to make it agree with a desired adjusted earnings presentation.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "When the accountant approves a correction, record the rationale and the affected periods and reports. Reissue controlled exports as needed, with a clear version date. If a prior report was shared, ask the appropriate adviser how the change should be communicated. Quietly replacing a file without explaining the difference can create more uncertainty than the original error.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Finish with an exception package, not a claim of perfection",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "At the end of the cleanup, assemble the current reports, reconciliations, supporting schedules, change log, and unresolved questions. State who reviewed the work and the scope they actually covered. Do not label the package audited, reviewed, or professionally approved unless that description accurately reflects a real engagement and the professional's authorization.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Use a short maintenance routine to prevent the same problems from returning. Define who reconciles each account, who reviews exceptions, and how changes to prior periods are controlled. That ongoing routine is the connection between a one-time cleanup and usable financial information. A sale process may require additional work, but the owner can now explain what is supported and what still requires attention.",
+        "sourceIds": []
+      },
+      {
+        "type": "example",
+        "title": "A controlled next step",
+        "text": "Hypothetical example: a retailer finds two entries with similar descriptions after a bank-feed import. The bookkeeper traces both to the bank statement and original documents before changing anything. One relates to a different transaction and remains. The other is reviewed with the accountant and corrected with a documented explanation. The cleanup preserves the trail rather than deleting every entry that looked repetitive.",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Continue with this related Academy guide",
+        "href": "/academy/why-profit-and-cash-flow-tell-different-stories",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Explore build a profitable business",
+        "href": "/books/build-a-profitable-business",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Schedule a confidential conversation about your next step",
+        "href": "/contact?source=academy&article=quickbooks-cleanup-before-business-sale",
+        "sourceIds": []
+      }
+    ],
+    "relatedBooks": [
+      "build-a-profitable-business"
+    ],
+    "relatedArticles": [
+      "why-profit-and-cash-flow-tell-different-stories"
+    ],
+    "calculations": [],
+    "imagePrompt": "Original photorealistic editorial featured image for Heiridium Academy. Landscape 16:9, ideally 1536 by 864. A small-business bookkeeper organizing color-neutral receipt folders beside a laptop showing a softly blurred generic interface, warm office natural light, navy and restrained gold palette, no branded software. Realistic anatomy and hands, authentic established American business, understated premium navy, gold and silver visual palette, clean composition, subtle depth of field. No typography, logos, brands, watermark, fake financial charts, robots or staged luxury. Fictional illustrative people, not actual clients. Do not modify any existing logo.",
+    "imageAlt": "A bookkeeper organizing receipt folders beside a laptop with a blurred unbranded accounting interface."
+  },
+  "sources": [
+    {
+      "id": "intuit-reconcile",
+      "title": "Learn the reconcile workflow in QuickBooks Online",
+      "organization": "Intuit QuickBooks",
+      "url": "https://quickbooks.intuit.com/learn-support/en-us/help-article/reconciliation-reports/learn-reconcile-workflow-quickbooks/L8ZibUuVE_US_en_US",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:39.494Z",
+      "contentSha256": "9ddbbc24b83fcfdd3e65a4769f5562eef5a65aa315ce53698bc5d22c7b1b129b",
+      "supports": [
+        "QuickBooks provides an account reconciliation workflow."
+      ]
+    },
+    {
+      "id": "intuit-audit",
+      "title": "View transaction changes in the audit history in QuickBooks",
+      "organization": "Intuit QuickBooks",
+      "url": "https://quickbooks.intuit.com/learn-support/en-us/help-article/audit-log/view-transaction-changes-audit-history/L7obVhic2_US_en_US",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:40.240Z",
+      "contentSha256": "4b919f377e60697e218169e6e52ea932250dea0c198f02d4ab04e0d493abcb6d",
+      "supports": [
+        "QuickBooks audit history can show changes to transactions."
+      ]
+    },
+    {
+      "id": "irs-recordkeeping",
+      "title": "Recordkeeping | Internal Revenue Service",
+      "organization": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.333Z",
+      "contentSha256": "5b7cb4b285344b37cce11eb8d576734a1253160712f6be8ffe4a4a99d5d70e60",
+      "supports": [
+        "Business records support financial statements and explanations of recorded activity."
+      ]
+    }
+  ],
+  "image": {
+    "src": "/images/academy/quickbooks-cleanup-before-business-sale.webp",
+    "alt": "A bookkeeper organizing receipt folders beside a laptop with a blurred unbranded accounting interface.",
+    "width": 1536,
+    "height": 864,
+    "sha256": "048fc51b5b7720b9e8a8d5864c370533fb145a51b491b68a7ceac2decb47ba16",
+    "generator": "OpenAI built-in image_gen; optimized locally with Sharp",
+    "promptSha256": "bda85c889fcc96196c7ad8d73fa67ce74a3eb2ec7fd75ce21f9f25b351ff8860"
+  },
+  "validation": {
+    "status": "pending",
+    "reviewedAt": null,
+    "report": null
+  },
+  "disclosure": "AI-assisted research and drafting. Human editorial approval is required before publication. AI-generated images are illustrative and do not depict actual clients."
+}

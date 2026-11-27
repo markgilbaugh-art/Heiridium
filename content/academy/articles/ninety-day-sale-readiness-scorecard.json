@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "slug": "ninety-day-sale-readiness-scorecard",
+  "pillar": "sale-preparation",
+  "topic": "exit-readiness",
+  "industries": [
+    "professional-services"
+  ],
+  "proposedDate": "2026-11-27",
+  "createdAt": "2026-11-27T05:44:15.381Z",
+  "content": {
+    "title": "A 90-day sale-readiness scorecard for business owners",
+    "summary": "A sale-readiness scorecard should reveal evidence gaps rather than produce a flattering total. Use this 90-day framework to assign owners, test documentation, and decide when specialist review is needed.",
+    "directAnswer": "Assess readiness across records, operations, contracts, people, and decision ownership. Mark each item as evidenced, incomplete, or unresolved, then prioritize the gaps that could prevent a reliable buyer review. Use the scorecard to organize preparation, not to predict a sale price or guarantee that a transaction will close.",
+    "seoTitle": "A 90-day sale-readiness scorecard for owners",
+    "metaDescription": "Assess sale readiness with a 90-day evidence scorecard covering records, operations, contracts, people, and clear ownership of unresolved preparation work.",
+    "primaryQuestion": "A 90-day sale-readiness scorecard for business owners?",
+    "searchIntent": "Produce a practical owner decision and evidence checklist about ninety day sale readiness scorecard, rather than a general overview.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "Use three evidence states instead of a headline score",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "A numerical total can conceal a problem that matters more than all the completed items together. A tidy office and a current organization chart do not compensate for an unexplained financial balance or a contract whose transfer requirements nobody has reviewed. Use three states: evidenced, incomplete, and unresolved. Evidenced means a responsible person can show current support. Incomplete means the needed work is known. Unresolved means the team has not yet established the facts or the appropriate next step.",
+        "sourceIds": [
+          "sba-management"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Write the evidence requirement before assigning the state. For financial reporting, it may be a reconciled schedule and an explanation of exceptions. For a management process, it may be an observed handoff. Keep the standard proportionate to the business. The aim is to make the next conversation more reliable, not to create a compliance exercise with no practical use.",
+        "sourceIds": []
+      },
+      {
+        "type": "checklist",
+        "title": "Owner action checklist",
+        "items": [
+          "Define evidence for each workstream before grading it.",
+          "Use evidenced, incomplete, and unresolved states.",
+          "Assign one accountable owner and a next review date.",
+          "Test whether someone else can follow the support.",
+          "Keep confidential records in approved access-controlled locations.",
+          "Record the next owner decision and its open assumptions."
+        ],
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Separate company preparation from transaction advice",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Begin with five workstreams: financial records, operating continuity, customer and supplier commitments, employee responsibilities, and access to critical systems. Add an adviser workstream for questions that require legal, accounting, or transaction judgment. Do not treat an internal checklist as a substitute for that advice. The scorecard should tell you what to ask and what to bring to the meeting.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "For every workstream, choose one accountable person. Other people may contribute, but ownership should be clear when the item stalls. Record the location of supporting material rather than copying sensitive documents into the scorecard. An access-controlled index is easier to maintain than several competing versions of a buyer folder. Note the last review date so a previously complete item does not remain green indefinitely.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Days one through thirty: establish the baseline",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Gather the existing records and identify gaps without rushing to rewrite history. Ask the bookkeeper which balances remain unexplained. Ask operating managers which decisions require the owner. Ask the person responsible for contracts which agreements need specialist review. Record the answers and the evidence available today. If two people disagree, preserve the disagreement as an unresolved question instead of selecting the more convenient answer.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Choose a small number of priority items. A useful priority test is whether an unresolved fact could stop the team from answering an important question accurately. Assign a next action and a date, then check whether the necessary person has time and authority to do it. Preparation becomes slow when every task is nominally urgent and nobody has room to finish one.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Days thirty-one through sixty: test the support",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Ask someone who did not assemble a workstream to find and explain its evidence. Can the reviewer trace a schedule to its source? Can a manager carry out the documented process? Can the team identify the current contract version? This is a rehearsal for clarity, not an imitation buyer diligence exercise. Do not circulate confidential information to people who do not need access.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "When a test fails, record the failure precisely. A missing file, an outdated instruction, and an unresolved policy question need different responses. Avoid changing the score merely because another meeting occurred. The evidence state should change when support has improved or an appropriate adviser has resolved the question. Keep an exception log so the owner can see recurring causes.",
+        "sourceIds": []
+      },
+      {
+        "type": "h2",
+        "text": "Days sixty-one through ninety: decide what is ready",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Review completed evidence, unresolved risks, and the effort still required. Separate work that is necessary before a buyer conversation from work that can continue later with clear disclosure and adviser guidance. This decision depends on the company's circumstances. There is no universal threshold in this framework, and a strong scorecard does not guarantee interest, financing, or a successful closing.",
+        "sourceIds": []
+      },
+      {
+        "type": "p",
+        "text": "Finish the period with a short decision record: what the owner intends to do next, which assumptions support that choice, which people need to advise, and what would cause the plan to change. If the right decision is to continue preparing, say so. A truthful readiness review is useful even when it delays a transaction, because it gives the owner a concrete improvement agenda instead of a vague sense of being almost ready.",
+        "sourceIds": []
+      },
+      {
+        "type": "example",
+        "title": "A controlled next step",
+        "text": "Hypothetical example: a service company has current income statements but cannot explain a customer-deposit balance. Its records workstream remains unresolved even though most checklist items are complete. The finance owner prepares a supporting schedule and asks the accountant to review the treatment. The score changes only after the evidence and explanation are available. This avoids allowing a reassuring overall total to hide a specific unanswered question.",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Continue with this related Academy guide",
+        "href": "/academy/how-to-find-out-if-your-company-can-run-without-you",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Explore build a sellable business",
+        "href": "/books/build-a-sellable-business",
+        "sourceIds": []
+      },
+      {
+        "type": "link",
+        "label": "Schedule a confidential conversation about your next step",
+        "href": "/contact?source=academy&article=ninety-day-sale-readiness-scorecard",
+        "sourceIds": []
+      }
+    ],
+    "relatedBooks": [
+      "build-a-sellable-business"
+    ],
+    "relatedArticles": [
+      "how-to-find-out-if-your-company-can-run-without-you"
+    ],
+    "calculations": [],
+    "imagePrompt": "Original photorealistic editorial featured image for Heiridium Academy. Landscape 16:9, ideally 1536 by 864. A mature business owner and an independent adviser seated across a modest navy-and-warm-wood meeting table, reviewing blank folders and an unmarked checklist. A real service-company office, thoughtful calm expressions, no staged handshake. Realistic anatomy and hands, authentic established American business, understated premium navy, gold and silver visual palette, clean composition, subtle depth of field. No typography, logos, brands, watermark, fake financial charts, robots or staged luxury. Fictional illustrative people, not actual clients. Do not modify any existing logo.",
+    "imageAlt": "A business owner and adviser discussing an unmarked readiness checklist across a meeting table."
+  },
+  "sources": [
+    {
+      "id": "sba-management",
+      "title": "Manage your business - Small Business Administration",
+      "organization": "U.S. Small Business Administration",
+      "url": "https://www.sba.gov/counseling/manage-your-business/",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.213Z",
+      "contentSha256": "c7e334fb70d9640da5c68165aa24d7dbbf49b5e53d769238eeb2856dbc7b375c",
+      "supports": [
+        "Business ownership transfers benefit from a thorough plan."
+      ]
+    },
+    {
+      "id": "irs-recordkeeping",
+      "title": "Recordkeeping | Internal Revenue Service",
+      "organization": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:38.333Z",
+      "contentSha256": "5b7cb4b285344b37cce11eb8d576734a1253160712f6be8ffe4a4a99d5d70e60",
+      "supports": [
+        "Records can support management review and financial statements."
+      ]
+    },
+    {
+      "id": "cisa-small-business",
+      "title": "Small and Medium Businesses | Cybersecurity and Infrastructure Security Agency CISA",
+      "organization": "Cybersecurity and Infrastructure Security Agency",
+      "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-27T05:37:40.581Z",
+      "contentSha256": "fdea258fd838844cb63cd874eff543172566e6d20f223ff7a5126a275cbe4ac2",
+      "supports": [
+        "Business continuity preparation should account for cybersecurity risk."
+      ]
+    }
+  ],
+  "image": {
+    "src": "/images/academy/ninety-day-sale-readiness-scorecard.webp",
+    "alt": "A business owner and adviser discussing an unmarked readiness checklist across a meeting table.",
+    "width": 1536,
+    "height": 864,
+    "sha256": "13f22d11b7e5da0b1c031f2a503846acf91594fc689d4cfa303b2e7e363bf9a3",
+    "generator": "OpenAI built-in image_gen; optimized locally with Sharp",
+    "promptSha256": "54f443ba1a82317568bc9216938d62079867daae125eb088f7742c31d7c1a0e3"
+  },
+  "validation": {
+    "status": "pending",
+    "reviewedAt": null,
+    "report": null
+  },
+  "disclosure": "AI-assisted research and drafting. Human editorial approval is required before publication. AI-generated images are illustrative and do not depict actual clients."
+}
