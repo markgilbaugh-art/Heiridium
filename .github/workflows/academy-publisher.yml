@@ -48,7 +48,7 @@ concurrency:
 jobs:
   academy:
     if: github.ref == 'refs/heads/main' && vars.ACADEMY_ENGINE_CONFIGURED == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     # Configure this environment for protected main only. Do not enable scheduled jobs
     # until App installation, reviewers, credentials and caps are verified.

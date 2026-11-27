@@ -51,8 +51,8 @@
   ],
   "deployment": {
     "projectName": "heiridium",
-    "projectId": null,
-    "teamId": null,
+    "projectId": "prj_NLLRhlNQl74FwMs9xSAftYEws3B3",
+    "teamId": "team_4DPg4TYWgSzRUHPOwJSdNIJt",
     "siteUrl": "https://heiridium.com",
     "requireCommitVerification": true
   },

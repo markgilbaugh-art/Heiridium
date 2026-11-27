@@ -1,6 +1,6 @@
 # Implementation verification
 
-Baseline: `0d447fb77de96a4b8a2e1b84a498afa9edb3e73d`, branch `feat/academy-autonomous-publisher`. Verification performed locally on Node 22 against the production Next.js build. This records implementation evidence, not hosted acceptance or content approval.
+Initial implementation commit: `9c8dc29878d35a66a686a91b5be819b98bb5d5bf`. Baseline: `0d447fb77de96a4b8a2e1b84a498afa9edb3e73d`, branch `feat/academy-autonomous-publisher`. Verification performed locally on Node 22 against the production Next.js build. This records implementation evidence, not hosted acceptance or content approval.
 
 ## Results
 
@@ -29,7 +29,8 @@ Browser artifacts are generated in ignored `artifacts/`: `editorial-queue-deskto
 2. Screenshot review exposed real mobile overflow from the article grid's minimum width around a table. Added `min-w-0` and changed the assertion to compare document scroll width with document client width. The corrected production build passes the mobile journey.
 3. The initial request schema used Zod's URI format, outside the documented strict model-output formats. The provider adapter now normalizes the API schema while retaining strict local Zod URL and length validation.
 4. A pending content PR could otherwise cause repeated drafts of the same topic. Preflight now checks open engine PRs before reserving cost; no second draft or paid request is made while that PR awaits review.
-5. Removed the preexisting `ignoreBuildErrors` setting and added explicit type/lint/tests to CI. Source and image content checks are distinct from machine factual/originality verification and human approval.
+5. Cloud CI initially failed installing Chromium because `ubuntu-latest` selected Ubuntu 26.04, unsupported by pinned Playwright 1.56.1. Both workflows now pin Ubuntu 24.04. Cloud type checks, all 42 tests and production build passed in that first run; the browser gate is being rerun on the corrected runner.
+6. Removed the preexisting `ignoreBuildErrors` setting and added explicit type/lint/tests to CI. Source and image content checks are distinct from machine factual/originality verification and human approval.
 
 ## Initial review inventory
 
@@ -39,7 +40,7 @@ The initial planning horizon is November 27, 2026–February 24, 2027, with 90 d
 
 ## Remaining acceptance rehearsal
 
-1. Restore access to the existing Vercel project **heiridium**, verify repository/main/domain, and record project/team IDs.
+1. Restore access to the existing Vercel project **heiridium**, verify repository/main/domain, and confirm the project/team IDs recorded from the Vercel bot on PR #1.
 2. Configure the dedicated repository App, protected environment and required secrets; keep publication paused.
 3. Run a real `verify-draft`, review its content PR, and record actual human editorial approval. Assign appropriately qualified reviewers before sensitive approvals.
 4. Fill the seven-article approved inventory, verify App-triggered Vercel deployment of the intended commit, then enable 6 AM Central publication.
