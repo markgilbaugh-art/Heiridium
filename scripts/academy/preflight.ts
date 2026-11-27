@@ -5,6 +5,7 @@ export async function generationDecision(
   fetchPulls: () => Promise<
     { head: { ref: string }; html_url: string }[]
   > = async () => github("/pulls?state=open&per_page=100"),
+  approvedCount: number = status().approved,
 ) {
   if (process.env.ACADEMY_PUBLISHING_DISABLED === "true")
     return { needed: false, reason: "Emergency disable is active" };
@@ -13,7 +14,7 @@ export async function generationDecision(
     process.env.GITHUB_EVENT_NAME !== "workflow_dispatch"
   )
     return { needed: false, reason: "Scheduled publishing is paused" };
-  if (status().approved >= publishingConfig.approvedInventoryTarget)
+  if (approvedCount >= publishingConfig.approvedInventoryTarget)
     return { needed: false, reason: "Approved inventory target is met" };
   const pulls = await fetchPulls();
   const pending = pulls.find((p) => p.head.ref.startsWith("academy/drafts/"));

@@ -33,6 +33,8 @@ The private `/editorial` queue shows publication state, approved inventory, next
 
 The current connector cannot create GitHub environment secrets, install a GitHub App, verify a professional's credentials, or access the Heiridium Vercel project. Those setup steps remain explicit rather than silently simulated.
 
+The read-only `/api/academy/release` endpoint exposes only the public application name, deployment commit and environment with `no-store`. It allows exact public-production commit verification when the project API connection is unavailable; it grants no publishing or configuration access. Automated publication still requires the authenticated deployment check.
+
 ## Schedule and manual controls
 
 The pinned workflow uses GitHub's native IANA timezone field, `America/Chicago`, which handles CST/CDT:

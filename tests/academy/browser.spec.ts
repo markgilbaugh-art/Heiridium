@@ -2,7 +2,17 @@ import { test, expect } from "@playwright/test";
 import fs from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-const slug = "silver-wave-ownership-transition-checklist";
+import { getEditorialQueue } from "../../lib/content/articles";
+const queue = getEditorialQueue();
+const preview =
+  queue.find((a) => a.slug === "silver-wave-ownership-transition-checklist") ??
+  queue.find((a) => a.provenance) ??
+  queue[0];
+if (!preview)
+  throw new Error(
+    "A private draft fixture is required for the browser rehearsal.",
+  );
+const slug = preview.slug;
 test("private preview: normal queue navigation, image, headings, keyboard and responsive layout", async ({
   page,
 }, info) => {
@@ -27,32 +37,33 @@ test("private preview: normal queue navigation, image, headings, keyboard and re
   await expect(
     page.getByRole("heading", {
       level: 1,
-      name: "The Silver Wave: an ownership-transition checklist",
+      name: preview.title,
     }),
   ).toBeVisible();
   await expect(page.getByText("Proposed", { exact: true })).toBeVisible();
-  const image = page.getByRole("img", {
-    name: "An experienced owner and operations leader reviewing a checklist in an organized service workshop.",
-  });
-  await expect(image).toBeVisible();
-  expect(
-    await image.evaluate((el) => (el as HTMLImageElement).naturalWidth),
-  ).toBeGreaterThan(0);
+  if (preview.cover) {
+    const image = page.getByRole("img", { name: preview.cover.alt });
+    await expect(image).toBeVisible();
+    expect(
+      await image.evaluate((el) => (el as HTMLImageElement).naturalWidth),
+    ).toBeGreaterThan(0);
+  }
   const structured = await page
     .locator('script[type="application/ld+json"]')
     .allTextContents();
   expect(structured.some((text) => text.includes('"@type":"Article"'))).toBe(
     false,
   );
-  await expect(
-    page.getByRole("region", { name: "An evidence-based transition review" }),
-  ).toBeVisible();
-  await page
-    .getByRole("region", { name: "An evidence-based transition review" })
-    .focus();
-  await expect(
-    page.getByRole("region", { name: "An evidence-based transition review" }),
-  ).toBeFocused();
+  const table = preview.body.find((block) => block.type === "table");
+  if (table?.type === "table") {
+    const region = page.getByRole("region", { name: table.caption });
+    await expect(region).toBeVisible();
+    await region.focus();
+    await expect(region).toBeFocused();
+  }
+  const back = page.getByRole("link", { name: "Back to queue" });
+  await back.focus();
+  await expect(back).toBeFocused();
   expect(
     await page.evaluate(
       () =>
@@ -64,7 +75,7 @@ test("private preview: normal queue navigation, image, headings, keyboard and re
   await page.waitForTimeout(150);
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({
-    path: `artifacts/silver-wave-preview-${info.project.name}.png`,
+    path: `artifacts/private-article-preview-${info.project.name}.png`,
     fullPage: true,
   });
   expect(errors).toEqual([]);
@@ -81,7 +92,7 @@ test("unapproved article stays out of public pages, sitemap and structured data"
   for (const route of [
     "/",
     "/academy",
-    "/academy/topics/succession-wealth",
+    `/academy/topics/${preview.topic}`,
     "/sitemap.xml",
   ]) {
     const response = await request.get(route);
@@ -120,5 +131,23 @@ test("legacy article, book and consultation remain accessible", async ({
   ).toBeVisible();
   await expect(page.locator('input[name="academy_article"]')).toHaveValue(
     "why-profit-and-cash-flow-tell-different-stories",
+  );
+});
+
+test("release diagnostics expose only the public deployment identity", async ({
+  request,
+}) => {
+  const response = await request.get("/api/academy/release");
+  expect(response.status()).toBe(200);
+  const value = await response.json();
+  expect(Object.keys(value).sort()).toEqual([
+    "application",
+    "commit",
+    "environment",
+  ]);
+  expect(value.application).toBe("heiridium");
+  expect(response.headers()["cache-control"]).toBe("no-store");
+  expect(value.commit === null || /^[a-f0-9]{40}$/.test(value.commit)).toBe(
+    true,
   );
 });

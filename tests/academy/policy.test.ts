@@ -165,11 +165,18 @@ test("tax wording and exact financial examples independently trigger review", ()
   assert.equal(requiresProfessionalReview(finance), true);
 });
 test("local code cannot fabricate a workflow approval", () => {
-  assert.throws(
-    () => approve(article().slug, "editorial", "A Person", ""),
-    /reviewed manual workflow/,
-  );
+  const before = process.env.GITHUB_ACTIONS;
+  delete process.env.GITHUB_ACTIONS;
+  try {
+    assert.throws(
+      () => approve("synthetic-test-unpublished", "editorial", "A Person", ""),
+      /reviewed manual workflow/,
+    );
+  } finally {
+    if (before !== undefined) process.env.GITHUB_ACTIONS = before;
+  }
 });
+
 test("first publication uses the current Central date", () => {
   const result = plan();
   assert.equal(result.retry, false);

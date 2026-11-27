@@ -9,8 +9,8 @@ Initial implementation commit: `9c8dc29878d35a66a686a91b5be819b98bb5d5bf`. Basel
 | TypeScript and scoped React/engine lint | PASS | `pnpm check:academy` |
 | Security, approvals, dates, costs, sources, provider request boundaries | PASS | 42 tests, zero skips |
 | Production build | PASS | 49 static/dynamic route outputs, type errors enforced |
-| Desktop browser | PASS | 3 journeys at 1440×1000 |
-| Mobile browser | PASS | 3 journeys at 390×844 |
+| Desktop browser | PASS | 4 journeys at 1440×1000 |
+| Mobile browser | PASS | 4 journeys at 390×844 |
 | Draft structure, links, image hashes and hypothetical calculation | PASS | 7 JSON drafts pass deterministic validation |
 | Existing content | PASS locally | 32 original slugs preserved; 13 legacy live articles remain live |
 | Private editorial navigation | PASS | Queue → Silver Wave preview, original image, headings, keyboard-focusable table |
@@ -21,7 +21,7 @@ Initial implementation commit: `9c8dc29878d35a66a686a91b5be819b98bb5d5bf`. Basel
 | Hosted Vercel acceptance | BLOCKED | Current connector returns project/deployment 404; no local authenticated Vercel CLI is installed |
 | Search Console / live custom-event measurements | UNCONFIGURED | Optional account access and live deployment verification still required |
 
-Browser artifacts are generated in ignored `artifacts/`: `editorial-queue-desktop.png`, `editorial-queue-mobile.png`, `silver-wave-preview-desktop.png`, `silver-wave-preview-mobile.png`, and `browser-results.json`. CI preserves the same evidence as an artifact. No preview credential is included in this report.
+Browser artifacts are generated in ignored `artifacts/`: `editorial-queue-desktop.png`, `editorial-queue-mobile.png`, `private-article-preview-desktop.png`, `private-article-preview-mobile.png`, and `browser-results.json`. CI preserves the same evidence as an artifact. No preview credential is included in this report.
 
 ## Findings resolved during verification
 
@@ -29,8 +29,9 @@ Browser artifacts are generated in ignored `artifacts/`: `editorial-queue-deskto
 2. Screenshot review exposed real mobile overflow from the article grid's minimum width around a table. Added `min-w-0` and changed the assertion to compare document scroll width with document client width. The corrected production build passes the mobile journey.
 3. The initial request schema used Zod's URI format, outside the documented strict model-output formats. The provider adapter now normalizes the API schema while retaining strict local Zod URL and length validation.
 4. A pending content PR could otherwise cause repeated drafts of the same topic. Preflight now checks open engine PRs before reserving cost; no second draft or paid request is made while that PR awaits review.
-5. Cloud CI initially failed installing Chromium because `ubuntu-latest` selected Ubuntu 26.04, unsupported by pinned Playwright 1.56.1. Both workflows now pin Ubuntu 24.04. Cloud type checks, all 42 tests and production build passed in that first run; the browser gate is being rerun on the corrected runner.
-6. Removed the preexisting `ignoreBuildErrors` setting and added explicit type/lint/tests to CI. Source and image content checks are distinct from machine factual/originality verification and human approval.
+5. Cloud CI initially failed installing Chromium because `ubuntu-latest` selected Ubuntu 26.04, unsupported by pinned Playwright 1.56.1. Both workflows now pin Ubuntu 24.04. Cloud type checks, all 42 tests and production build passed in that first run; all six initial cloud browser journeys subsequently passed on the corrected runner (run 45949328487).
+6. Isolated authorization tests from real workflow environment variables and made private-preview selection follow an actually unpublished queue item. CI remains meaningful after articles publish and when manual approval workflows run.
+7. Removed the preexisting `ignoreBuildErrors` setting and added explicit type/lint/tests to CI. Source and image content checks are distinct from machine factual/originality verification and human approval.
 
 ## Initial review inventory
 

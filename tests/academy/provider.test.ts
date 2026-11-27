@@ -64,12 +64,15 @@ test("a pending engine PR prevents duplicate generation before reserving cost", 
   const before = process.env.GITHUB_EVENT_NAME;
   process.env.GITHUB_EVENT_NAME = "workflow_dispatch";
   try {
-    const result = await generationDecision(async () => [
-      {
-        head: { ref: "academy/drafts/123-1" },
-        html_url: "https://github.com/markgilbaugh-art/Heiridium/pull/1",
-      },
-    ]);
+    const result = await generationDecision(
+      async () => [
+        {
+          head: { ref: "academy/drafts/123-1" },
+          html_url: "https://github.com/markgilbaugh-art/Heiridium/pull/1",
+        },
+      ],
+      0,
+    );
     assert.equal(result.needed, false);
     assert.match(result.reason, /duplicate/);
   } finally {

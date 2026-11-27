@@ -133,10 +133,22 @@ jobs:
         with:
           name: academy-report-${{ github.run_id }}-${{ github.run_attempt }}
           path: .academy-run.json
+          include-hidden-files: true
           retention-days: 90
           if-no-files-found: ignore
       - name: Notify administrator on failure
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: pnpm academy notify-failure
+        run: |
+          node --input-type=module <<'JS'
+          const root = 'https://api.github.com/repos/markgilbaugh-art/Heiridium';
+          const headers = {Authorization: `Bearer ${process.env.GH_TOKEN}`, Accept: 'application/vnd.github+json', 'content-type': 'application/json'};
+          const marker = '<!-- academy:workflow-failure -->';
+          const response = await fetch(`${root}/issues?state=open&per_page=100`, {headers});
+          if (!response.ok) throw Error(`Incident lookup failed (${response.status})`);
+          const existing = (await response.json()).find(i => i.body?.includes(marker));
+          const body = `${marker}\nWorkflow needs attention: https://github.com/markgilbaugh-art/Heiridium/actions/runs/${process.env.GITHUB_RUN_ID}. Inspect the redacted job log; no content approval is implied.`;
+          const posted = await fetch(existing ? `${root}/issues/${existing.number}/comments` : `${root}/issues`, {method: 'POST', headers, body: JSON.stringify(existing ? {body} : {title: 'Academy: workflow needs attention', body})});
+          if (!posted.ok) throw Error(`Incident notification failed (${posted.status})`);
+          JS
