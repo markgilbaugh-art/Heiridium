@@ -7,25 +7,24 @@ export function Hero() {
     <section className="relative overflow-hidden bg-ink text-ivory">
       <Container className="grid items-center gap-12 py-16 md:py-24 lg:grid-cols-[1.05fr_1fr]">
         <div>
-          <p className="eyebrow text-gold-soft">For owners building what comes next</p>
+          <p className="eyebrow text-gold-soft">Business consulting · Acquisitions · Generational wealth</p>
           <h1 className="mt-5 text-5xl font-semibold leading-[1.02] md:text-7xl">
-            {'Turn decades of work into wealth your family keeps.'}
+            {'Heiridium transforms your business into generational wealth.'}
           </h1>
           <p className="mt-7 max-w-xl text-xl leading-relaxed text-ivory/80">
-            Heiridium helps owners of established businesses understand what their company is worth, prepare it for a sale
-            or family transfer, and plan for what they keep after taxes, with your CPA and attorney at the table.
+            Build a more profitable company, prepare for a successful sale, or explore a direct acquisition by Heiridium. We help turn decades of hard work into a retirement and a legacy for your family.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <ButtonLink href="/contact">Schedule a Private Conversation</ButtonLink>
-            <ButtonLink href="/books" variant="outline-light">
-              Explore the Four-Book Series
+            <ButtonLink href="/exit-planning" variant="outline-light">
+              Explore Your Exit Options
             </ButtonLink>
           </div>
           <dl className="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-ivory/15 pt-8">
             {[
-              ['Profit', 'Book I'],
-              ['Protect', 'Book II'],
-              ['Transfer', 'Books III–IV'],
+              ['Improve', 'Operations'],
+              ['Transition', 'Acquisitions'],
+              ['Preserve', 'Family wealth'],
             ].map(([term, def]) => (
               <div key={term}>
                 <dt className="font-serif text-2xl font-semibold text-ivory">{term}</dt>
